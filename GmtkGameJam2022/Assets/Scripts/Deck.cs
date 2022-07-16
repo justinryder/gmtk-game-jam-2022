@@ -15,6 +15,11 @@ public class Deck : MonoBehaviour
 
     public void Draw()
     {
+        if (_deck.Count == 0)
+        {
+            return;
+        }
+
         var cardPrefab = _deck.Pop();
 
         if (cardPrefab)
@@ -32,6 +37,11 @@ public class Deck : MonoBehaviour
         _deck = new Stack<Card>(new List<Card>(AllCards).Shuffle());
 
         UpdateText();
+
+        // while(_deck.Count > 0)
+        // {
+        //     Draw();
+        // }
     }
 
     // Update is called once per frame
