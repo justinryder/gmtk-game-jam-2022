@@ -1,0 +1,621 @@
+fileFormatVersion: 2
+guid: 2e82f476b36bffc49a3aaf2de0df9e0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3335412271442899589
+    second: SEA-06_0
+  - first:
+      213: -1014474124059480244
+    second: SEA-06_1
+  - first:
+      213: -5087115887673471443
+    second: SEA-06_2
+  - first:
+      213: 8696277825544501812
+    second: SEA-06_3
+  - first:
+      213: -4469210472870330555
+    second: SEA-06_4
+  - first:
+      213: 3579135112085390939
+    second: SEA-06_5
+  - first:
+      213: 5088943374048650989
+    second: SEA-06_6
+  - first:
+      213: -1879591972544720504
+    second: SEA-06_7
+  - first:
+      213: 4372289350548717565
+    second: SEA-06_8
+  - first:
+      213: -3762519716663505526
+    second: SEA-06_9
+  - first:
+      213: -5308142389404038863
+    second: SEA-06_10
+  - first:
+      213: -9057679585275455371
+    second: SEA-06_11
+  - first:
+      213: 805075904894744460
+    second: SEA-06_12
+  - first:
+      213: 2528018404635752743
+    second: SEA-06_13
+  - first:
+      213: -1782986023103129688
+    second: SEA-06_14
+  - first:
+      213: 5908365699359627771
+    second: SEA-06_15
+  - first:
+      213: 6987993703845295275
+    second: SEA-06_16
+  - first:
+      213: 3974340128364188195
+    second: SEA-06_17
+  - first:
+      213: 7234847970846368325
+    second: SEA-06_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SEA-06_0
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 22090
+        width: 4716
+        height: 3548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6dfdbf4370a8d4ebef512b6883fb6c
+      internalID: -3335412271442899589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_1
+      rect:
+        serializedVersion: 2
+        x: 5866
+        y: 21932
+        width: 5862
+        height: 3886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b04e91f4c8ce848af384adf41eb7be
+      internalID: -1014474124059480244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_2
+      rect:
+        serializedVersion: 2
+        x: 12064
+        y: 22090
+        width: 8467
+        height: 3728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a00c9636a873646bea11d1dc176915
+      internalID: -5087115887673471443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_3
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 18529
+        width: 10216
+        height: 2788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c60a1c659d42145bbeaf5eba9c32f2
+      internalID: 8696277825544501812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_4
+      rect:
+        serializedVersion: 2
+        x: 11210
+        y: 17245
+        width: 2616
+        height: 3875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5f7fd83adb8564d82ac73df7942d62
+      internalID: -4469210472870330555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_5
+      rect:
+        serializedVersion: 2
+        x: 14245
+        y: 17171
+        width: 2443
+        height: 4368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac55002e6e46871469531b8790ecfeb9
+      internalID: 3579135112085390939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_6
+      rect:
+        serializedVersion: 2
+        x: 17305
+        y: 17171
+        width: 2641
+        height: 4862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c26eefcdd0e3a4ba44c69de411fac4
+      internalID: 5088943374048650989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_7
+      rect:
+        serializedVersion: 2
+        x: 11111
+        y: 16900
+        width: 9254
+        height: 5133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a605b61c479784e911a55a8d1388a2
+      internalID: -1879591972544720504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 14468
+        width: 10549
+        height: 3010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d73d42f654387f439acff4a8f2d8e4c
+      internalID: 4372289350548717565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_9
+      rect:
+        serializedVersion: 2
+        x: 11511
+        y: 13187
+        width: 5811
+        height: 3427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4adbc7adf4e7294d971b0cc3c9e82ac
+      internalID: -3762519716663505526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_10
+      rect:
+        serializedVersion: 2
+        x: 17650
+        y: 13514
+        width: 2176
+        height: 3100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e87fc7e924f854c9f709f795e711ac
+      internalID: -5308142389404038863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 9923
+        width: 10121
+        height: 3373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd4b1174d6be324997bb262665fc49f
+      internalID: -9057679585275455371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_12
+      rect:
+        serializedVersion: 2
+        x: 10968
+        y: 9574
+        width: 9481
+        height: 3519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9676b367efbb6a4a8441b619121cec2
+      internalID: 805075904894744460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_13
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 7433
+        width: 9485
+        height: 1884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494916842abce8e40808bf1110f49dd5
+      internalID: 2528018404635752743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_14
+      rect:
+        serializedVersion: 2
+        x: 10275
+        y: 7271
+        width: 11142
+        height: 2111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4f41997c3f02b4b94f4b8e1b178f7b
+      internalID: -1782986023103129688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3922
+        width: 9745
+        height: 2324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c444dfb5fd13944851299e9a74f0b8
+      internalID: 5908365699359627771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_16
+      rect:
+        serializedVersion: 2
+        x: 11466
+        y: 3832
+        width: 9417
+        height: 2593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4713a6ecc7fc44b460e99852a362a
+      internalID: 6987993703845295275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_17
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 435
+        width: 10460
+        height: 3040
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171f7a14628b32741ac664622fd15c00
+      internalID: 3974340128364188195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-06_18
+      rect:
+        serializedVersion: 2
+        x: 11526
+        y: 852
+        width: 9149
+        height: 2355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceb2f3544323ec4d9c037b8b2838688
+      internalID: 7234847970846368325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SEA-06_1: -1014474124059480244
+      SEA-06_3: 8696277825544501812
+      SEA-06_11: -9057679585275455371
+      SEA-06_16: 6987993703845295275
+      SEA-06_17: 3974340128364188195
+      SEA-06_6: 5088943374048650989
+      SEA-06_12: 805075904894744460
+      SEA-06_5: 3579135112085390939
+      SEA-06_7: -1879591972544720504
+      SEA-06_4: -4469210472870330555
+      SEA-06_13: 2528018404635752743
+      SEA-06_15: 5908365699359627771
+      SEA-06_10: -5308142389404038863
+      SEA-06_8: 4372289350548717565
+      SEA-06_0: -3335412271442899589
+      SEA-06_18: 7234847970846368325
+      SEA-06_9: -3762519716663505526
+      SEA-06_2: -5087115887673471443
+      SEA-06_14: -1782986023103129688
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
