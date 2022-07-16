@@ -28,7 +28,7 @@ public class Card : MonoBehaviour
     {
         ActionText.text = ResolveTextSize(card.Action, ActionLineLength);
         DescriptionText.text = ResolveTextSize(card.Description, DescriptionLineLength);
-        ChanceText.text = card.Chance.ToString();
+        ChanceText.text = card.Chance.ToString() + "%";
         Image.sprite = card.Image;
     }
 
