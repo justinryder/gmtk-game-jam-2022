@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 [System.Serializable]
 public class CardData
@@ -13,9 +14,9 @@ public class CardData
 
 public class Card : MonoBehaviour
 {
-    public TextMesh ActionText;
-    public TextMesh DescriptionText;
-    public TextMesh ChanceText;
+    public TextMeshProUGUI ActionText;
+    public TextMeshProUGUI DescriptionText;
+    public TextMeshProUGUI ChanceText;
     public SpriteRenderer Image;
 
     public int ActionLineLength = 20;

@@ -47,6 +47,9 @@ TagManager:
   - name: game
     uniqueID: 3213379835
     locked: 0
+  - name: card
+    uniqueID: 1291137697
+    locked: 0
   - name: ui
     uniqueID: 3838210655
     locked: 0
