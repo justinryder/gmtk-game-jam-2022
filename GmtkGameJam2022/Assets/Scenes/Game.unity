@@ -830,17 +830,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &701635903 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4197644071265740502, guid: 78e4b184d2e192549b40d51e8cd0ac11, type: 3}
-  m_PrefabInstance: {fileID: 1533587341}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7bf22989a5b39242aaa8966e5ca9d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &734280185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -851,6 +840,10 @@ PrefabInstance:
     - target: {fileID: 5769557897972772365, guid: 219fdacd8777fd149946411cdad08625, type: 3}
       propertyPath: m_Name
       value: Health Bar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769557897972772365, guid: 219fdacd8777fd149946411cdad08625, type: 3}
+      propertyPath: m_TagString
+      value: HealthBar
       objectReference: {fileID: 0}
     - target: {fileID: 9103917724592494559, guid: 219fdacd8777fd149946411cdad08625, type: 3}
       propertyPath: m_RootOrder
@@ -927,6 +920,92 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnUI: {fileID: 832165325}
+--- !u!1 &917099211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 917099212}
+  - component: {fileID: 917099213}
+  m_Layer: 0
+  m_Name: Encounter
+  m_TagString: Encounter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &917099212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917099211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &917099213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917099211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef73038176e38274481f3e5cacbc985c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  encounterData:
+    Name: The Mailman
+    AggressiveSuccessResult:
+      Text: the Mailman yelps and runs away
+      TimeDelta: -1
+      HealthDelta: 0
+    AggressiveFailResult:
+      Text: but the mailman bites back
+      TimeDelta: -1
+      HealthDelta: -2
+    FriendlySuccessResult:
+      Text: the mailman reaches down and pets you
+      TimeDelta: -2
+      HealthDelta: 1
+    FriendlyFailResult:
+      Text: the mailman looks at you.
+      TimeDelta: -1
+      HealthDelta: 0
+    StealthSuccessResult:
+      Text: you get away, the mailman none the wiser
+      TimeDelta: -2
+      HealthDelta: 0
+    StealthFailResult:
+      Text: the mailman sees you. Judging.
+      TimeDelta: -2
+      HealthDelta: 0
+    NeutralSuccessResult:
+      Text: the mailman ignores you for the most part
+      TimeDelta: -1
+      HealthDelta: 1
+    NeutralFailResult:
+      Text: the mailman is approaching you
+      TimeDelta: -1
+      HealthDelta: -1
+    FleeSuccessResult:
+      Text: the mailman looks around confused, but you escape.
+      TimeDelta: 1
+      HealthDelta: 0
+    FleeFailResult:
+      Text: the mailman looks around confused, but you escape.
+      TimeDelta: 1
+      HealthDelta: 0
 --- !u!1 &932665443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1585,7 +1664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4197644071265740497, guid: 78e4b184d2e192549b40d51e8cd0ac11, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4197644071265740502, guid: 78e4b184d2e192549b40d51e8cd0ac11, type: 3}
       propertyPath: Text
@@ -1684,6 +1763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Time Bar
       objectReference: {fileID: 0}
+    - target: {fileID: 5769557897972772365, guid: 219fdacd8777fd149946411cdad08625, type: 3}
+      propertyPath: m_TagString
+      value: TimeBar
+      objectReference: {fileID: 0}
     - target: {fileID: 7885943292573701268, guid: 219fdacd8777fd149946411cdad08625, type: 3}
       propertyPath: onImage
       value: 
@@ -1779,6 +1862,7 @@ GameObject:
   - component: {fileID: 1875397781}
   - component: {fileID: 1875397780}
   - component: {fileID: 1875397783}
+  - component: {fileID: 1875397784}
   m_Layer: 5
   m_Name: Deck Draw Button
   m_TagString: Untagged
@@ -1851,7 +1935,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 701635903}
+      - m_Target: {fileID: 1875397784}
         m_TargetAssemblyTypeName: Deck, Assembly-CSharp
         m_MethodName: Draw
         m_Mode: 1
@@ -1915,6 +1999,77 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BounceDuration: 0.2
   BounceDegrees: 2
+--- !u!114 &1875397784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875397777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7bf22989a5b39242aaa8966e5ca9d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: {fileID: 178863847}
+  hand: {fileID: 2008292090}
+  AllCards:
+  - {fileID: 7351950732229932997, guid: 6f18541db8dbd7d43820127918169653, type: 3}
+  - {fileID: 2820107294590025565, guid: f9c1a417959ba7948ab41ea4d6e48971, type: 3}
+  DeckSize: 15
+--- !u!1 &2008292088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2008292089}
+  - component: {fileID: 2008292090}
+  m_Layer: 5
+  m_Name: Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2008292089
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008292088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2099344448}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -260}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2008292090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008292088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceabb67be0265324bb2a16391dbb49e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinAngle: -1
+  MaxAngle: 1
+  XScalar: 500
+  YScalar: 200
 --- !u!1001 &2011221647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1925,6 +2080,10 @@ PrefabInstance:
     - target: {fileID: 3215988736150692580, guid: 2dd608bb351079c48934c36c2e064f03, type: 3}
       propertyPath: m_Name
       value: Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215988736150692580, guid: 2dd608bb351079c48934c36c2e064f03, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3215988736150692582, guid: 2dd608bb351079c48934c36c2e064f03, type: 3}
       propertyPath: m_RootOrder
@@ -2079,6 +2238,7 @@ RectTransform:
   m_Children:
   - {fileID: 329385442}
   - {fileID: 1875397778}
+  - {fileID: 2008292089}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

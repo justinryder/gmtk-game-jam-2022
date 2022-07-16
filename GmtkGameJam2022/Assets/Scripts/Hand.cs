@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Hand : MonoBehaviour
 {
     // public float CardSpacing = 5;
-    float MinAngle = -1;
-    float MaxAngle = 1;
-    float XScalar = 5;
-    float YScalar = 2;
+    public float MinAngle = -1;
+    public float MaxAngle = 1;
+    public float XScalar = 5;
+    public float YScalar = 2;
 
     private List<Card> _cards;
 
@@ -16,12 +17,23 @@ public class Hand : MonoBehaviour
     {
         _cards.Add(card);
 
-        card.transform.parent = transform;
+        card.transform.SetParent(transform);
+        card.transform.rotation = Quaternion.identity;
+        card.GetComponent<Button>().onClick.AddListener(() => HandleCardClick(card));
 
         for(var i = 0; i< _cards.Count; i++)
         {
            _cards[i].AnimateTo(CalculateCardPosition(i, _cards.Count));
         }
+    }
+
+    void HandleCardClick(Card card)
+    {
+        Debug.Log("Clicked card" + card.cardData.Action);
+        card.Play();
+
+        _cards.Remove(card);
+        card.AnimateToThenDestroy(Vector3.forward * -1000);
     }
 
     private Vector3 CalculateCardPosition(int index, int total)
