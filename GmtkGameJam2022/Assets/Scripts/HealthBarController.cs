@@ -34,7 +34,7 @@ public class HealthBarController : MonoBehaviour
 
     public void GainHealth(int deltaHealth)
     {
-        var newHealth = Mathf.Min(_health + deltaHealth, MaxHealth);
+        var newHealth = Mathf.Clamp(_health + deltaHealth, 0 , MaxHealth);
         SetHealth(newHealth);
     }
 
