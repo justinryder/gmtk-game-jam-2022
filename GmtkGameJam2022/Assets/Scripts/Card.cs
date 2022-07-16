@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public class CardData
+{
+    public Sprite Image;
+    public string Action;
+    public string Description;
+    public int Chance;
+}
+
 public class Card : MonoBehaviour
 {
-    [System.Serializable]
-    public class CardData
-    {
-        public string Image { get; set; }
-        public string Action { get; set; }
-        public string Description { get; set; }
-        public int Chance { get; set; }
-    }
-
     public TextMesh ActionText;
     public TextMesh DescriptionText;
     public TextMesh ChanceText;
@@ -21,32 +21,21 @@ public class Card : MonoBehaviour
     public int ActionLineLength = 20;
     public int DescriptionLineLength = 40;
 
-    // public CardData cardData;
+    public CardData cardData;
 
     public void LoadCard(CardData card)
     {
         ActionText.text = ResolveTextSize(card.Action, ActionLineLength);
         DescriptionText.text = ResolveTextSize(card.Description, DescriptionLineLength);
         ChanceText.text = card.Chance.ToString();
-        
-        var image = Resources.Load<Sprite>(card.Image);
-        Image.sprite = image;
+        Image.sprite = card.Image;
     }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        // LoadCard(cardData);
-        LoadCard(
-            new CardData
-            {
-                Image = "CardImage_Wave",
-                Action = "Meow",
-                Description = "Purrr... Maybe this human will pet us?",
-                Chance = 20,
-            }
-        );
+        LoadCard(cardData);
     }
 
     // Update is called once per frame
@@ -55,9 +44,9 @@ public class Card : MonoBehaviour
         
     }
 
+    // https://answers.unity.com/questions/190800/wrapping-a-textmesh-text.html
     private string ResolveTextSize(string input, int lineLength)
     {
-
         // Split string by char " "         
         string[] words = input.Split(" "[0]);
 
