@@ -956,6 +956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969035192}
   - component: {fileID: 969035193}
+  - component: {fileID: 969035194}
   m_Layer: 0
   m_Name: Background_CityPark
   m_TagString: Untagged
@@ -1030,6 +1031,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &969035194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969035191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d0779250b5ecd41a48728fa3c7151b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Startcolor: {r: 1, g: 1, b: 1, a: 1}
+  duration: 10
+  Endcolor: {r: 0.9811321, g: 0, b: 0, a: 1}
 --- !u!1 &1052457604
 GameObject:
   m_ObjectHideFlags: 0
