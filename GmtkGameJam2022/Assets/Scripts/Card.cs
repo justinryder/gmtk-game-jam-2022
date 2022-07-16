@@ -4,14 +4,32 @@ using UnityEngine;
 
 public class Card : MonoBehaviour
 {
-    public TextMesh TextMesh;
-    public SpriteRenderer Image;
-    public int LineLength = 40;
-
-    public void LoadCard(string text, string imageName)
+    [System.Serializable]
+    public class CardData
     {
-        TextMesh.text = ResolveTextSize(text, LineLength);
-        var image = Resources.Load<Sprite>(imageName);
+        public string Image { get; set; }
+        public string Action { get; set; }
+        public string Description { get; set; }
+        public int Chance { get; set; }
+    }
+
+    public TextMesh ActionText;
+    public TextMesh DescriptionText;
+    public TextMesh ChanceText;
+    public SpriteRenderer Image;
+
+    public int ActionLineLength = 20;
+    public int DescriptionLineLength = 40;
+
+    // public CardData cardData;
+
+    public void LoadCard(CardData card)
+    {
+        ActionText.text = ResolveTextSize(card.Action, ActionLineLength);
+        DescriptionText.text = ResolveTextSize(card.Description, DescriptionLineLength);
+        ChanceText.text = card.Chance.ToString();
+        
+        var image = Resources.Load<Sprite>(card.Image);
         Image.sprite = image;
     }
 
@@ -19,7 +37,16 @@ public class Card : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LoadCard("Try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage and bite own foot, hard mew chase red laser dot. Oooo! dangly balls! jump swat swing flies so sweetly to the floor crash move on wash belly nap relentlessly pursues moth.", "CardInteraction_Stealth");
+        // LoadCard(cardData);
+        LoadCard(
+            new CardData
+            {
+                Image = "CardImage_Wave",
+                Action = "Meow",
+                Description = "Purrr... Maybe this human will pet us?",
+                Chance = 20,
+            }
+        );
     }
 
     // Update is called once per frame
