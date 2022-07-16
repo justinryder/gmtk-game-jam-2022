@@ -2011,6 +2011,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4197644071133312534, guid: 78e4b184d2e192549b40d51e8cd0ac11, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -456756641
+      objectReference: {fileID: 0}
     - target: {fileID: 4197644071265740497, guid: 78e4b184d2e192549b40d51e8cd0ac11, type: 3}
       propertyPath: m_Name
       value: Deck
