@@ -91,6 +91,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4137474851679921983, guid: e9d8812369c83484aa0e8ba5bc7b787f, type: 3}
+      propertyPath: cardData.Image
+      value: 
+      objectReference: {fileID: 21300000, guid: 097a66d1da257064db006809292c9a8b, type: 3}
     - target: {fileID: 4870933487535601582, guid: e9d8812369c83484aa0e8ba5bc7b787f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1061

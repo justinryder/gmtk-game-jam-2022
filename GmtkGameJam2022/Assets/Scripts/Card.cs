@@ -7,6 +7,7 @@ using TMPro;
 public class CardData
 {
     public Sprite Image;
+    public Sprite WhiskerImage;
     public string Action;
     public string Description;
     public int Chance;
@@ -18,6 +19,7 @@ public class Card : MonoBehaviour
     public TextMeshProUGUI DescriptionText;
     public TextMeshProUGUI ChanceText;
     public SpriteRenderer Image;
+    public SpriteRenderer WhiskerImage;
 
     public int ActionLineLength = 20;
     public int DescriptionLineLength = 40;
@@ -30,6 +32,7 @@ public class Card : MonoBehaviour
         DescriptionText.text = ResolveTextSize(card.Description, DescriptionLineLength);
         ChanceText.text = card.Chance.ToString() + "%";
         Image.sprite = card.Image;
+        WhiskerImage.sprite = card.WhiskerImage;
     }
 
 
