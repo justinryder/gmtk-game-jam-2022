@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class HealthBarController : MonoBehaviour
 {
@@ -11,12 +12,20 @@ public class HealthBarController : MonoBehaviour
    public Color onColor = Color.green;
 
    public Color offColor = Color.white;
+
+    public TextMeshProUGUI LabelText;
    
    private const bool DebugControls = true;
 
-    public const int MaxHealth = 9;
+    public int MaxHealth = 9;
+
+    public GameObject HealthPipPrefab;
+
+    public Vector3 HealthPipSpacing = Vector3.right;
 
     public List<HealthPIPCONT> HealthPips;
+
+    public string Label = "Lives:";
 
     private int _health;
 
@@ -29,6 +38,11 @@ public class HealthBarController : MonoBehaviour
             var on = i<health; 
 
             HealthPips[i].SetPip(on? onColor : offColor, on? onImage : offImage);
+        }
+
+        if (LabelText)
+        {
+            LabelText.text = string.Format("{0} {1}/{2}", Label, _health, MaxHealth);
         }
     }
 
@@ -46,7 +60,13 @@ public class HealthBarController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SetHealth(9);
+        for (var i = HealthPips.Count; i < MaxHealth; i++)
+        {
+            var pip = Instantiate(HealthPipPrefab, transform.position + HealthPipSpacing * i, transform.rotation);
+            pip.transform.SetParent(transform);
+            HealthPips.Add(pip.GetComponent<HealthPIPCONT>());
+        }
+        SetHealth(MaxHealth);
     }
 
     // Update is called once per frame
