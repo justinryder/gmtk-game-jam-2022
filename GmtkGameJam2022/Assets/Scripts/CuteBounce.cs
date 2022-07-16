@@ -43,7 +43,7 @@ public class CuteBounce : MonoBehaviour
 
             var degrees = _direction * BounceDegrees;
 
-            transform.rotation = Quaternion.Euler(Vector3.forward * degrees);
+            transform.localRotation = Quaternion.Euler(Vector3.forward * degrees);
         }
     }
 }
