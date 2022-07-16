@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class HealthPIPCONT : MonoBehaviour
 {
-    public Renderer renderer; 
+    public SpriteRenderer spriteRenderer; 
 
-    public void SetPip (Color color)
+    public void SetPip (Color color, Sprite image)
     {
-        // var renderer = GetComponent<Renderer>();
+        spriteRenderer.material.color=color;
 
-        renderer.material.color=color;
+        spriteRenderer.sprite=image;
     }
 
     // Start is called before the first frame update

@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class HealthBarController : MonoBehaviour
 {
+   public Sprite onImage;
+
+   public Sprite offImage;
+
    public Color onColor = Color.green;
 
-   public Color offColor = Color.red;
+   public Color offColor = Color.white;
    
    private const bool DebugControls = true;
 
@@ -22,7 +26,9 @@ public class HealthBarController : MonoBehaviour
 
         for (var i = 0; i < HealthPips.Count; i++)
         {
-            HealthPips[i].SetPip(i<health ? onColor : offColor);
+            var on = i<health; 
+
+            HealthPips[i].SetPip(on? onColor : offColor, on? onImage : offImage);
         }
     }
 

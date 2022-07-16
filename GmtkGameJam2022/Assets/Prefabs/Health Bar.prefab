@@ -53,6 +53,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf7e6f1cc906f647ba1f7906fbd3635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onImage: {fileID: 21300000, guid: d9ad11a8eb5297f43a987825b213362c, type: 3}
+  offImage: {fileID: 21300000, guid: 4b6f82b51d08837418d6b78ff69c97fc, type: 3}
+  onColor: {r: 0, g: 1, b: 0, a: 1}
+  offColor: {r: 1, g: 1, b: 1, a: 1}
   HealthPips:
   - {fileID: 2619599426250238363}
   - {fileID: 1370037077196808773}
