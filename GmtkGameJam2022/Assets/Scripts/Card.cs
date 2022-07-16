@@ -20,7 +20,7 @@ public class Card : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LoadCard("ahjsdfhjkhasdhjkfhkjdasf", "CardInteraction_Stealth");
+        LoadCard("Try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage and bite own foot, hard mew chase red laser dot. Oooo! dangly balls! jump swat swing flies so sweetly to the floor crash move on wash belly nap relentlessly pursues moth.", "CardInteraction_Stealth");
     }
 
     // Update is called once per frame
