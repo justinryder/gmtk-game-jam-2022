@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class HealthPIPCONT : MonoBehaviour
 {
-    public void SetPip (bool on)
+    public Renderer renderer; 
+
+    public void SetPip (Color color)
     {
-        var renderer = GetComponent<Renderer>();
+        // var renderer = GetComponent<Renderer>();
 
-        if (on) 
-        {
-            renderer.material.color = Color.green;
-        }
-        else
-        {
-            renderer.material.color = Color.red;
-        }
-
+        renderer.material.color=color;
     }
 
     // Start is called before the first frame update

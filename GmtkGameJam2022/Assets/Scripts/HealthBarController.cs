@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class HealthBarController : MonoBehaviour
 {
-    private const bool DebugControls = true;
+   public Color onColor = Color.green;
+
+   public Color offColor = Color.red;
+   
+   private const bool DebugControls = true;
 
     public const int MaxHealth = 9;
 
@@ -18,7 +22,7 @@ public class HealthBarController : MonoBehaviour
 
         for (var i = 0; i < HealthPips.Count; i++)
         {
-            HealthPips[i].SetPip(i<health);
+            HealthPips[i].SetPip(i<health ? onColor : offColor);
         }
     }
 
