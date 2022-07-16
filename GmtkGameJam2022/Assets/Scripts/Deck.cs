@@ -11,7 +11,11 @@ public class Deck : MonoBehaviour
 
     public List<Card> AllCards;
 
+    public int DeckSize = 15;
+
     private Stack<Card> _deck;
+
+    private static System.Random rng = new System.Random();
 
     public void Draw()
     {
@@ -34,14 +38,19 @@ public class Deck : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _deck = new Stack<Card>(new List<Card>(AllCards).Shuffle());
+        var cards = new List<Card>();
+        for (var i = 0; i < DeckSize; i++)
+        {
+            var allCardIndex = i % AllCards.Count;
+            if (allCardIndex == 0)
+            {
+                AllCards.Shuffle();
+            }
+            cards.Add(AllCards[allCardIndex]);
+        }
+        _deck = new Stack<Card>(cards.Shuffle());
 
         UpdateText();
-
-        // while(_deck.Count > 0)
-        // {
-        //     Draw();
-        // }
     }
 
     // Update is called once per frame
