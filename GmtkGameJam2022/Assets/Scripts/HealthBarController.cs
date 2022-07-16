@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class HealthBarController : MonoBehaviour
 {
-    private const bool DebugControls = false;
+    private const bool DebugControls = true;
 
     public const int MaxHealth = 9;
 
     public List<HealthPIPCONT> HealthPips;
 
-    private int _health = 9;
+    private int _health;
 
     private void SetHealth(int health)
     {
         _health = health;
 
-        for(var i=0; i<HealthPips.Count; i++)
+        for (var i = 0; i < HealthPips.Count; i++)
         {
             HealthPips[i].SetPip(i<health);
         }
@@ -36,7 +36,7 @@ public class HealthBarController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        SetHealth(9);
     }
 
     // Update is called once per frame
