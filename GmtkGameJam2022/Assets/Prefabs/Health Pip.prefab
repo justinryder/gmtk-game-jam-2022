@@ -42,6 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5074699061896518023}
   - component: {fileID: 3514279491161540149}
+  - component: {fileID: 4908337495279636685}
   m_Layer: 0
   m_Name: Health Pip
   m_TagString: Untagged
@@ -78,6 +79,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 6545217847517883256}
+--- !u!114 &4908337495279636685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6661215221252600800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df67be4407111d41a5a2dd9991e97fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BounceDuration: 0.2
+  BounceDegrees: 2
 --- !u!1 &6816702329597584418
 GameObject:
   m_ObjectHideFlags: 0
