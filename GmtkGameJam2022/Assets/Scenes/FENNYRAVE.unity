@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 49421863}
   - component: {fileID: 49421862}
   - component: {fileID: 49421861}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 54164067}
   - component: {fileID: 54164066}
   - component: {fileID: 54164065}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +502,7 @@ GameObject:
   - component: {fileID: 54728193}
   - component: {fileID: 54728192}
   - component: {fileID: 54728195}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Plane (center)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -638,7 +638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 55486609}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: CrossOver Fans (Both Sides)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 55822744}
   - component: {fileID: 55822743}
   - component: {fileID: 55822742}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,7 +791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 60363018}
   - component: {fileID: 60363017}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Element 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,7 +849,7 @@ GameObject:
   - component: {fileID: 67850902}
   - component: {fileID: 67850901}
   - component: {fileID: 67850900}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: MovingCarpet (middle fan)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +968,7 @@ GameObject:
   - component: {fileID: 141365303}
   - component: {fileID: 141365302}
   - component: {fileID: 141365301}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1085,7 +1085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 172741783}
   - component: {fileID: 172741784}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Element 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1144,7 +1144,7 @@ GameObject:
   - component: {fileID: 183237421}
   - component: {fileID: 183237420}
   - component: {fileID: 183237423}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower Blade 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1284,7 +1284,7 @@ GameObject:
   - component: {fileID: 199828143}
   - component: {fileID: 199828142}
   - component: {fileID: 199828141}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower Blade 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1423,7 +1423,7 @@ GameObject:
   - component: {fileID: 207674977}
   - component: {fileID: 207674976}
   - component: {fileID: 207674975}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1542,7 +1542,7 @@ GameObject:
   - component: {fileID: 225032951}
   - component: {fileID: 225032950}
   - component: {fileID: 225032949}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: End Display (to right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1658,7 +1658,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 227344372}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: End Display (Both Sides)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1694,7 +1694,7 @@ GameObject:
   - component: {fileID: 234807921}
   - component: {fileID: 234807920}
   - component: {fileID: 234807919}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: MovingCarpet (left fan)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1811,7 +1811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260657287}
   - component: {fileID: 260657288}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: End Display (right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1867,7 +1867,7 @@ GameObject:
   - component: {fileID: 272700919}
   - component: {fileID: 272700918}
   - component: {fileID: 272700917}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: MovingCarpet (right fan)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1983,7 +1983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 308480071}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass (Both Sides)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2011,6 +2011,108 @@ Transform:
   m_Father: {fileID: 1223142790}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &311171032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 311171036}
+  - component: {fileID: 311171035}
+  - component: {fileID: 311171034}
+  - component: {fileID: 311171033}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &311171033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311171032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &311171034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311171032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &311171035
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311171032}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: -456756641
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
+--- !u!224 &311171036
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311171032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 680697477}
+  - {fileID: 1223142790}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 555.5, y: 266}
+  m_SizeDelta: {x: 1111, y: 532}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &312086760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,7 +2125,7 @@ GameObject:
   - component: {fileID: 312086764}
   - component: {fileID: 312086763}
   - component: {fileID: 312086762}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2139,7 +2241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 321666933}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower (Both Sides)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2175,7 +2277,7 @@ GameObject:
   - component: {fileID: 339641730}
   - component: {fileID: 339641729}
   - component: {fileID: 339641728}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2294,7 +2396,7 @@ GameObject:
   - component: {fileID: 356173354}
   - component: {fileID: 356173353}
   - component: {fileID: 356173352}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: End Display (to right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2411,7 +2513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 372734693}
   - component: {fileID: 372734694}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Element 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2469,7 +2571,7 @@ GameObject:
   - component: {fileID: 379928046}
   - component: {fileID: 379928045}
   - component: {fileID: 379928044}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2619,7 +2721,7 @@ GameObject:
   - component: {fileID: 418256996}
   - component: {fileID: 418256995}
   - component: {fileID: 418256994}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2738,7 +2840,7 @@ GameObject:
   - component: {fileID: 418982963}
   - component: {fileID: 418982962}
   - component: {fileID: 418982961}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2854,7 +2956,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 423656747}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Alternating Fans (Both Sides)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2890,7 +2992,7 @@ GameObject:
   - component: {fileID: 440104125}
   - component: {fileID: 440104124}
   - component: {fileID: 440104123}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3007,7 +3109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 464717819}
   - component: {fileID: 464717818}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: MovingCarpet (Left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3065,7 +3167,7 @@ GameObject:
   - component: {fileID: 465069963}
   - component: {fileID: 465069962}
   - component: {fileID: 465069961}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Plane (right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3192,6 +3294,170 @@ Transform:
   m_Father: {fileID: 1531296208}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &481088322
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Show Laser Effect
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0.0000022053719, y: 0, z: 14.967969}
+      m_Extent: {x: 1.9594812, y: 0, z: 14.967969}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000003000200040006000700000000000000000000000000000000000000000000000000000000000000000000000000
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 32
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 320
+    _typelessdata: 000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f5bd0fa3f00000000cd7cef41000000000000803f000000005bd0fa3fcd7cef41000000000000000036d0fabf00000000cd7cef41000000000000803f0000000036d0fabfcd7cef410000803f0000000000000000000000000000000000000000000080bf000000000000000000000000000000000000803f00000000000000000000000000000000000080bf000000000000000000000000000000000000803f5bd0fa3f00000000cd7cef4100000000000080bf000000005bd0fa3fcd7cef41000000000000000036d0fabf00000000cd7cef4100000000000080bf0000000036d0fabfcd7cef410000803f00000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0.0000022053719, y: 0, z: 14.967969}
+    m_Extent: {x: 1.9594812, y: 0, z: 14.967969}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &485011890
 GameObject:
   m_ObjectHideFlags: 0
@@ -3288,7 +3554,7 @@ GameObject:
   - component: {fileID: 486355313}
   - component: {fileID: 486355312}
   - component: {fileID: 486355311}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: MovingCarpet (right fan)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3408,7 +3674,7 @@ GameObject:
   - component: {fileID: 535982535}
   - component: {fileID: 535982534}
   - component: {fileID: 535982533}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Crossover Fan (left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3548,7 +3814,7 @@ GameObject:
   - component: {fileID: 554608557}
   - component: {fileID: 554608556}
   - component: {fileID: 554608559}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower Blade 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3687,7 +3953,7 @@ GameObject:
   - component: {fileID: 556622026}
   - component: {fileID: 556622025}
   - component: {fileID: 556622024}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3794,6 +4060,49 @@ MonoBehaviour:
   fadeOutValue: 0
   gammaValue: 1.3
   generalTransparency: 0
+--- !u!21 &557684272
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Show Lasers/Show Laser Shader
+  m_Shader: {fileID: 4800000, guid: 4de030e0225f28d419882c3e9427fa32, type: 3}
+  m_ValidKeywords:
+  - LASER_TEXTURE
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 54879ed44e1474142a873e2113e8e8e4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DistortionStrength: 1
+    - _FadeOut: 0
+    - _ForwardScale: 1
+    - _Gamma: 1.17
+    - _GeneralTransparency: 0
+    - _IsRectangular: 0
+    - _LeftOffset: 0.05
+    - _NoiseScale: 0.1
+    - _RightOffset: 0.05
+    - _RightScale: 1
+    - _TimeScale: 1
+    m_Colors:
+    - _Color: {r: 1, g: 0, b: 0.31764707, a: 0.79607844}
+    - _LeftColor: {r: 0.9686275, g: 0.31764707, b: 1, a: 1}
+    - _RightColor: {r: 0.8470589, g: 0.2784314, b: 0.8745099, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &560601287
 GameObject:
   m_ObjectHideFlags: 0
@@ -3804,7 +4113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560601288}
   - component: {fileID: 560601289}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeams (center center)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3862,7 +4171,7 @@ GameObject:
   - component: {fileID: 603468330}
   - component: {fileID: 603468329}
   - component: {fileID: 603468328}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Initial Fan (Center)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4002,7 +4311,7 @@ GameObject:
   - component: {fileID: 607623814}
   - component: {fileID: 607623813}
   - component: {fileID: 607623816}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower Blade 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4141,7 +4450,7 @@ GameObject:
   - component: {fileID: 620939067}
   - component: {fileID: 620939066}
   - component: {fileID: 620939065}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4248,7 +4557,7 @@ MonoBehaviour:
   fadeOutValue: 0
   gammaValue: 4
   generalTransparency: 0
---- !u!21 &640707821
+--- !u!21 &646412593
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -4304,7 +4613,7 @@ GameObject:
   - component: {fileID: 660681337}
   - component: {fileID: 660681336}
   - component: {fileID: 660681339}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower Blade 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4441,7 +4750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 676560788}
   - component: {fileID: 676560787}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeams (center right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4544,7 +4853,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1153210447
   m_SortingLayer: 1
-  m_SortingOrder: -10
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d4156e992bcff4f48b70a90b23031b62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4564,12 +4873,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680697475}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.290003, y: 1.4900005, z: 0}
+  m_LocalPosition: {x: -546.96, y: -264.96, z: 0}
   m_LocalScale: {x: 0.5100001, y: 0.5100001, z: 0.5100001}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 311171036}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &680697478
 Animator:
@@ -4603,7 +4912,7 @@ GameObject:
   - component: {fileID: 692215721}
   - component: {fileID: 692215720}
   - component: {fileID: 692215719}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4722,7 +5031,7 @@ GameObject:
   - component: {fileID: 693418192}
   - component: {fileID: 693418191}
   - component: {fileID: 693418190}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4842,7 +5151,7 @@ GameObject:
   - component: {fileID: 782211192}
   - component: {fileID: 782211191}
   - component: {fileID: 782211194}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam One (right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4969,49 +5278,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!21 &804930903
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Show Lasers/Show Laser Shader
-  m_Shader: {fileID: 4800000, guid: 4de030e0225f28d419882c3e9427fa32, type: 3}
-  m_ValidKeywords:
-  - LASER_TEXTURE
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 54879ed44e1474142a873e2113e8e8e4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _DistortionStrength: 1
-    - _FadeOut: 0
-    - _ForwardScale: 1
-    - _Gamma: 1.17
-    - _GeneralTransparency: 0
-    - _IsRectangular: 0
-    - _LeftOffset: 0.05
-    - _NoiseScale: 0.1
-    - _RightOffset: 0.05
-    - _RightScale: 1
-    - _TimeScale: 1
-    m_Colors:
-    - _Color: {r: 1, g: 0, b: 0.31764707, a: 0.79607844}
-    - _LeftColor: {r: 0.9686275, g: 0.31764707, b: 1, a: 1}
-    - _RightColor: {r: 0.8470589, g: 0.2784314, b: 0.8745099, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &828499269
 GameObject:
   m_ObjectHideFlags: 0
@@ -5024,7 +5290,7 @@ GameObject:
   - component: {fileID: 828499273}
   - component: {fileID: 828499272}
   - component: {fileID: 828499271}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5143,7 +5409,7 @@ GameObject:
   - component: {fileID: 840798115}
   - component: {fileID: 840798114}
   - component: {fileID: 840798113}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5262,7 +5528,7 @@ GameObject:
   - component: {fileID: 885009524}
   - component: {fileID: 885009523}
   - component: {fileID: 885009522}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5378,7 +5644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 888574341}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeams (Side)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5414,7 +5680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937690884}
   - component: {fileID: 937690885}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Element 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5472,7 +5738,7 @@ GameObject:
   - component: {fileID: 940735001}
   - component: {fileID: 940735000}
   - component: {fileID: 940734999}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5591,7 +5857,7 @@ GameObject:
   - component: {fileID: 1003158043}
   - component: {fileID: 1003158042}
   - component: {fileID: 1003158041}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5711,7 +5977,7 @@ GameObject:
   - component: {fileID: 1014671529}
   - component: {fileID: 1014671528}
   - component: {fileID: 1014671531}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower Blade 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5850,7 +6116,7 @@ GameObject:
   - component: {fileID: 1028652212}
   - component: {fileID: 1028652211}
   - component: {fileID: 1028652210}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6052,7 +6318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1047966189}
   - component: {fileID: 1047966188}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: MovingCarpet (Right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6109,7 +6375,7 @@ GameObject:
   - component: {fileID: 1116457110}
   - component: {fileID: 1116457109}
   - component: {fileID: 1116457108}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6216,170 +6482,6 @@ MonoBehaviour:
   fadeOutValue: 0
   gammaValue: 1.3
   generalTransparency: 0
---- !u!43 &1122676804
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Show Laser Effect
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0.0000022053719, y: 0, z: 14.967969}
-      m_Extent: {x: 1.9594812, y: 0, z: 14.967969}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000003000200040006000700000000000000000000000000000000000000000000000000000000000000000000000000
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 32
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 320
-    _typelessdata: 000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f5bd0fa3f00000000cd7cef41000000000000803f000000005bd0fa3fcd7cef41000000000000000036d0fabf00000000cd7cef41000000000000803f0000000036d0fabfcd7cef410000803f0000000000000000000000000000000000000000000080bf000000000000000000000000000000000000803f00000000000000000000000000000000000080bf000000000000000000000000000000000000803f5bd0fa3f00000000cd7cef4100000000000080bf000000005bd0fa3fcd7cef41000000000000000036d0fabf00000000cd7cef4100000000000080bf0000000036d0fabfcd7cef410000803f00000000
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0.0000022053719, y: 0, z: 14.967969}
-    m_Extent: {x: 1.9594812, y: 0, z: 14.967969}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1196497986
 GameObject:
   m_ObjectHideFlags: 0
@@ -6390,7 +6492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1196497987}
   - component: {fileID: 1196497988}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Element 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6446,7 +6548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1204548561}
   - component: {fileID: 1204548562}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower (left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6504,7 +6606,7 @@ GameObject:
   - component: {fileID: 1217619439}
   - component: {fileID: 1217619438}
   - component: {fileID: 1217619437}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6622,7 +6724,7 @@ GameObject:
   - component: {fileID: 1223142790}
   - component: {fileID: 1223142788}
   - component: {fileID: 1223142789}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: The Show
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6892,9 +6994,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223142787}
-  m_LocalRotation: {x: -0, y: -0.0023920676, z: -0, w: 0.99999714}
-  m_LocalPosition: {x: 7.057411, y: -1.3, z: 0.0003528595}
-  m_LocalScale: {x: 0.89, y: 0.89, z: 0.89}
+  m_LocalRotation: {x: 0.34175003, y: -0.0022480425, z: 0.00081749156, w: 0.93978786}
+  m_LocalPosition: {x: -561.4, y: -248.15765, z: 9.83}
+  m_LocalScale: {x: 0.89, y: 0.89, z: 0.8899999}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 603468332}
@@ -6908,9 +7010,9 @@ Transform:
   - {fileID: 1531296208}
   - {fileID: 321666933}
   - {fileID: 227344372}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: -0.274, z: 0}
+  m_Father: {fileID: 311171036}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 39.967, y: -0.274, z: 0}
 --- !u!1 &1257592938
 GameObject:
   m_ObjectHideFlags: 0
@@ -7046,170 +7148,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257592938}
   m_CullTransparentMesh: 1
---- !u!43 &1285773186
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Show Laser Effect
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0.0000022053719, y: 0, z: 14.967969}
-      m_Extent: {x: 1.9594812, y: 0, z: 14.967969}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000003000200040006000700000000000000000000000000000000000000000000000000000000000000000000000000
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 32
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 320
-    _typelessdata: 000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f5bd0fa3f00000000cd7cef41000000000000803f000000005bd0fa3fcd7cef41000000000000000036d0fabf00000000cd7cef41000000000000803f0000000036d0fabfcd7cef410000803f0000000000000000000000000000000000000000000080bf000000000000000000000000000000000000803f00000000000000000000000000000000000080bf000000000000000000000000000000000000803f5bd0fa3f00000000cd7cef4100000000000080bf000000005bd0fa3fcd7cef41000000000000000036d0fabf00000000cd7cef4100000000000080bf0000000036d0fabfcd7cef410000803f00000000
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0.0000022053719, y: 0, z: 14.967969}
-    m_Extent: {x: 1.9594812, y: 0, z: 14.967969}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1310803598
 GameObject:
   m_ObjectHideFlags: 0
@@ -7222,7 +7160,7 @@ GameObject:
   - component: {fileID: 1310803602}
   - component: {fileID: 1310803601}
   - component: {fileID: 1310803600}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: End Display (to left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7339,7 +7277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1314912195}
   - component: {fileID: 1314912196}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower (right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7398,7 +7336,7 @@ GameObject:
   - component: {fileID: 1359188122}
   - component: {fileID: 1359188121}
   - component: {fileID: 1359188124}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: AlternatingFan (right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7440,7 +7378,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 804930903}
+  - {fileID: 646412593}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7469,7 +7407,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359188119}
-  m_Mesh: {fileID: 1285773186}
+  m_Mesh: {fileID: 481088322}
 --- !u!114 &1359188123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7537,7 +7475,7 @@ GameObject:
   - component: {fileID: 1371120464}
   - component: {fileID: 1371120463}
   - component: {fileID: 1371120462}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7654,7 +7592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1409995199}
   - component: {fileID: 1409995198}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: End Display (left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7710,7 +7648,7 @@ GameObject:
   - component: {fileID: 1438651363}
   - component: {fileID: 1438651362}
   - component: {fileID: 1438651361}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7829,7 +7767,7 @@ GameObject:
   - component: {fileID: 1466450448}
   - component: {fileID: 1466450447}
   - component: {fileID: 1466450446}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7949,7 +7887,7 @@ GameObject:
   - component: {fileID: 1491313108}
   - component: {fileID: 1491313107}
   - component: {fileID: 1491313110}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam Two (right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8085,7 +8023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1531296208}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Planes (Three Sides)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8122,7 +8060,7 @@ GameObject:
   - component: {fileID: 1547120557}
   - component: {fileID: 1547120556}
   - component: {fileID: 1547120555}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: MovingCarpet (middle fan)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8241,7 +8179,7 @@ GameObject:
   - component: {fileID: 1567011854}
   - component: {fileID: 1567011853}
   - component: {fileID: 1567011852}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8361,7 +8299,7 @@ GameObject:
   - component: {fileID: 1569717876}
   - component: {fileID: 1569717875}
   - component: {fileID: 1569717878}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Crossover Fan (right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8500,7 +8438,7 @@ GameObject:
   - component: {fileID: 1604970811}
   - component: {fileID: 1604970810}
   - component: {fileID: 1604970809}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8619,7 +8557,7 @@ GameObject:
   - component: {fileID: 1638163308}
   - component: {fileID: 1638163307}
   - component: {fileID: 1638163306}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: MovingCarpet (left fan)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8739,7 +8677,7 @@ GameObject:
   - component: {fileID: 1643128648}
   - component: {fileID: 1643128647}
   - component: {fileID: 1643128650}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower Blade 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8876,7 +8814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1646655751}
   - component: {fileID: 1646655752}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeams (center left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8933,7 +8871,7 @@ GameObject:
   - component: {fileID: 1653534147}
   - component: {fileID: 1653534146}
   - component: {fileID: 1653534145}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Right Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9147,7 +9085,7 @@ GameObject:
   - component: {fileID: 1700761654}
   - component: {fileID: 1700761653}
   - component: {fileID: 1700761656}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Rotating Flower Blade 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9274,6 +9212,170 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!43 &1745269857
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Show Laser Effect
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0.0000022053719, y: 0, z: 14.967969}
+      m_Extent: {x: 1.9594812, y: 0, z: 14.967969}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000003000200040006000700000000000000000000000000000000000000000000000000000000000000000000000000
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 32
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 320
+    _typelessdata: 000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f5bd0fa3f00000000cd7cef41000000000000803f000000005bd0fa3fcd7cef41000000000000000036d0fabf00000000cd7cef41000000000000803f0000000036d0fabfcd7cef410000803f0000000000000000000000000000000000000000000080bf000000000000000000000000000000000000803f00000000000000000000000000000000000080bf000000000000000000000000000000000000803f5bd0fa3f00000000cd7cef4100000000000080bf000000005bd0fa3fcd7cef41000000000000000036d0fabf00000000cd7cef4100000000000080bf0000000036d0fabfcd7cef410000803f00000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0.0000022053719, y: 0, z: 14.967969}
+    m_Extent: {x: 1.9594812, y: 0, z: 14.967969}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1772401623
 GameObject:
   m_ObjectHideFlags: 0
@@ -9286,7 +9388,7 @@ GameObject:
   - component: {fileID: 1772401627}
   - component: {fileID: 1772401626}
   - component: {fileID: 1772401625}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9405,7 +9507,7 @@ GameObject:
   - component: {fileID: 1777148180}
   - component: {fileID: 1777148179}
   - component: {fileID: 1777148178}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: End Display (to left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9525,7 +9627,7 @@ GameObject:
   - component: {fileID: 1779802795}
   - component: {fileID: 1779802794}
   - component: {fileID: 1779802797}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Plane (left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9664,7 +9766,7 @@ GameObject:
   - component: {fileID: 1816801669}
   - component: {fileID: 1816801668}
   - component: {fileID: 1816801667}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9784,7 +9886,7 @@ GameObject:
   - component: {fileID: 1846413748}
   - component: {fileID: 1846413747}
   - component: {fileID: 1846413751}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: AlternatingFan (left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9811,7 +9913,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 640707821}
+  - {fileID: 557684272}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9840,7 +9942,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846413746}
-  m_Mesh: {fileID: 1122676804}
+  m_Mesh: {fileID: 1745269857}
 --- !u!114 &1846413749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9923,7 +10025,7 @@ GameObject:
   - component: {fileID: 1895128852}
   - component: {fileID: 1895128851}
   - component: {fileID: 1895128850}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10040,7 +10142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1919902385}
   - component: {fileID: 1919902386}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Element 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10099,7 +10201,7 @@ GameObject:
   - component: {fileID: 1993181136}
   - component: {fileID: 1993181135}
   - component: {fileID: 1993181134}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam Two (left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10226,6 +10328,73 @@ Transform:
   m_Father: {fileID: 888574341}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -2, y: 7, z: 0}
+--- !u!1 &1998590781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998590784}
+  - component: {fileID: 1998590783}
+  - component: {fileID: 1998590782}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1998590782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998590781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1998590783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998590781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1998590784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998590781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2002691818
 GameObject:
   m_ObjectHideFlags: 0
@@ -10423,7 +10592,7 @@ GameObject:
   - component: {fileID: 2051881192}
   - component: {fileID: 2051881191}
   - component: {fileID: 2051881190}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Hourglass Fan Left Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10543,7 +10712,7 @@ GameObject:
   - component: {fileID: 2059252868}
   - component: {fileID: 2059252867}
   - component: {fileID: 2059252870}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeam One (left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10742,7 +10911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2144672259}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: FlashBeams (Center)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
