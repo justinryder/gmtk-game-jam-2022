@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: 72f218c35b945ef4c8d7935b635b9e5a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5279687713848174675
+    second: SEA-01_0
+  - first:
+      213: 691009807822118435
+    second: SEA-01_1
+  - first:
+      213: 2362448008352462234
+    second: SEA-01_2
+  - first:
+      213: 7640497481509859778
+    second: SEA-01_3
+  - first:
+      213: 9014704115204260733
+    second: SEA-01_4
+  - first:
+      213: 7882842289517655864
+    second: SEA-01_5
+  - first:
+      213: -5277911686428163728
+    second: SEA-01_6
+  - first:
+      213: 3672954687504181967
+    second: SEA-01_7
+  - first:
+      213: 2473608875232798760
+    second: SEA-01_8
+  - first:
+      213: -6748058566007523363
+    second: SEA-01_9
+  - first:
+      213: 2857572175909007868
+    second: SEA-01_10
+  - first:
+      213: -8752184367194916366
+    second: SEA-01_11
+  - first:
+      213: 2647992998520269227
+    second: SEA-01_12
+  - first:
+      213: 7132583250472348732
+    second: SEA-01_13
+  - first:
+      213: -665644872516492845
+    second: SEA-01_14
+  - first:
+      213: -8520542434678330527
+    second: SEA-01_15
+  - first:
+      213: -1935219296756474122
+    second: SEA-01_16
+  - first:
+      213: 5001479068571170856
+    second: SEA-01_17
+  - first:
+      213: 7849485857931036597
+    second: SEA-01_18
+  - first:
+      213: -2096798072688666265
+    second: SEA-01_19
+  - first:
+      213: 4185839555919308714
+    second: SEA-01_20
+  - first:
+      213: 8258871821678467419
+    second: SEA-01_21
+  - first:
+      213: -7516649200357874168
+    second: SEA-01_22
+  - first:
+      213: 936184993784471090
+    second: SEA-01_23
+  - first:
+      213: -9063312756676119620
+    second: SEA-01_24
+  - first:
+      213: -5672066909974812453
+    second: SEA-01_25
+  - first:
+      213: -7382968783300140065
+    second: SEA-01_26
+  - first:
+      213: -2348713942980090041
+    second: SEA-01_27
+  - first:
+      213: -1068783309017823523
+    second: SEA-01_28
+  - first:
+      213: 2635397399705795795
+    second: SEA-01_29
+  - first:
+      213: 2508194860657542130
+    second: SEA-01_30
+  - first:
+      213: -2134563999309645496
+    second: SEA-01_31
+  - first:
+      213: -6295835340339943258
+    second: SEA-01_32
+  - first:
+      213: -7866234809427489020
+    second: SEA-01_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SEA-01_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3632
+        width: 1736
+        height: 1324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf2058061044854182e4be2b0f98f2a
+      internalID: -5279687713848174675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_1
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 3518
+        width: 568
+        height: 1315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7f7ff7eddd6494fa4bb804038210b6
+      internalID: 691009807822118435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_2
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 4493
+        width: 1491
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d822fa0aeb22aea41800591b91876a21
+      internalID: 2362448008352462234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_3
+      rect:
+        serializedVersion: 2
+        x: 6796
+        y: 4455
+        width: 213
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589f3f6d64f20cd46ac7133ffa1c2548
+      internalID: 7640497481509859778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_4
+      rect:
+        serializedVersion: 2
+        x: 7325
+        y: 4443
+        width: 213
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0311ef738db174419c3df39a81c2ec5
+      internalID: 9014704115204260733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_5
+      rect:
+        serializedVersion: 2
+        x: 7820
+        y: 4403
+        width: 223
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef63e51d893a474795d8c95bec60c80
+      internalID: 7882842289517655864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_6
+      rect:
+        serializedVersion: 2
+        x: 8357
+        y: 4440
+        width: 457
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b2c94ded60ec84fbe6233d20b97f6d
+      internalID: -5277911686428163728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_7
+      rect:
+        serializedVersion: 2
+        x: 9210
+        y: 4405
+        width: 383
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85c4930fce2513428fba73159818111
+      internalID: 3672954687504181967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_8
+      rect:
+        serializedVersion: 2
+        x: 10053
+        y: 4397
+        width: 545
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac1c9f3346599c4582f409e1ccbf0a1
+      internalID: 2473608875232798760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_9
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 1227
+        width: 547
+        height: 3088
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f91c0b72aa3794d8ebf4d527c3e31e
+      internalID: -6748058566007523363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_10
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 1503
+        width: 452
+        height: 2272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e7158b3393a5b46a3f01d12711f75f
+      internalID: 2857572175909007868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_11
+      rect:
+        serializedVersion: 2
+        x: 5579
+        y: 1737
+        width: 569
+        height: 1786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d01b65c093983c43b3fc951833be884
+      internalID: -8752184367194916366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_12
+      rect:
+        serializedVersion: 2
+        x: 7100
+        y: 3661
+        width: 1289
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c073480294edc54f8f0ac61239b57b4
+      internalID: 2647992998520269227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_13
+      rect:
+        serializedVersion: 2
+        x: 9177
+        y: 3531
+        width: 454
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b197724544faab440b833a389437e5b3
+      internalID: 7132583250472348732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_14
+      rect:
+        serializedVersion: 2
+        x: 10185
+        y: 3576
+        width: 386
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120616f88ad3b1d41ae0fc546cfa8de6
+      internalID: -665644872516492845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1679
+        width: 368
+        height: 1658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843623ee26739744a99507a1e9f3323b
+      internalID: -8520542434678330527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_16
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1439
+        width: 385
+        height: 1794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4e49308d56e6b43a3ff93ff46cccad
+      internalID: -1935219296756474122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_17
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 1322
+        width: 388
+        height: 1927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b48b0d43be74242b3cfd9d4bf4e90e
+      internalID: 5001479068571170856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_18
+      rect:
+        serializedVersion: 2
+        x: 5575
+        y: 1737
+        width: 574
+        height: 1787
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052e5c631b3aebc4ca1b58ffcbd0db7c
+      internalID: 7849485857931036597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_19
+      rect:
+        serializedVersion: 2
+        x: 7238
+        y: 2704
+        width: 1004
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c32038e15074fe4f855ea59de59712c
+      internalID: -2096798072688666265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_20
+      rect:
+        serializedVersion: 2
+        x: 9208
+        y: 2867
+        width: 385
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b176bf631fceb6d4c81c355ca2716e9a
+      internalID: 4185839555919308714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_21
+      rect:
+        serializedVersion: 2
+        x: 10178
+        y: 2750
+        width: 351
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8ee0205741d19448727b95d85a45ae
+      internalID: 8258871821678467419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_22
+      rect:
+        serializedVersion: 2
+        x: 7243
+        y: 1761
+        width: 999
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90619e28600c40b478ddc7e722efc161
+      internalID: -7516649200357874168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_23
+      rect:
+        serializedVersion: 2
+        x: 9210
+        y: 2032
+        width: 383
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197a4a8da69988847ba58c200ba53a41
+      internalID: 936184993784471090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_24
+      rect:
+        serializedVersion: 2
+        x: 10194
+        y: 2040
+        width: 300
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa96d0ebf5b2bb49a41e410d73bf1f6
+      internalID: -9063312756676119620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_25
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 497
+        width: 329
+        height: 1447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb918c5a5f77004f99fcf278db0c372
+      internalID: -5672066909974812453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_26
+      rect:
+        serializedVersion: 2
+        x: 7038
+        y: 225
+        width: 1441
+        height: 1145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53518871a7b70c4b8a6dcd36778dfa2
+      internalID: -7382968783300140065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_27
+      rect:
+        serializedVersion: 2
+        x: 9229
+        y: 1272
+        width: 343
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe498630585acb4892e46dad11ad635
+      internalID: -2348713942980090041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_28
+      rect:
+        serializedVersion: 2
+        x: 10109
+        y: 1195
+        width: 444
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a8d79366bfc2e42bfe09da2541f529
+      internalID: -1068783309017823523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_29
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 272
+        width: 1558
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1524a3337f52052478779c879ca30636
+      internalID: 2635397399705795795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_30
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 233
+        width: 1318
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1f817b13e80e04b9e228ba85c445b5
+      internalID: 2508194860657542130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_31
+      rect:
+        serializedVersion: 2
+        x: 4978
+        y: 312
+        width: 999
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae97905cc8eca443acb1bf3c41ec9a0
+      internalID: -2134563999309645496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_32
+      rect:
+        serializedVersion: 2
+        x: 9130
+        y: 318
+        width: 710
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7f6e5385fdc304ba5591baee67073c
+      internalID: -6295835340339943258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEA-01_33
+      rect:
+        serializedVersion: 2
+        x: 10303
+        y: 419
+        width: 191
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89612171d7276d84f8c4dcf032b77590
+      internalID: -7866234809427489020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8d9331a54f76e7e45b1d78ee655b9321
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SEA-01_9: -6748058566007523363
+      SEA-01_20: 4185839555919308714
+      SEA-01_21: 8258871821678467419
+      SEA-01_16: -1935219296756474122
+      SEA-01_25: -5672066909974812453
+      SEA-01_4: 9014704115204260733
+      SEA-01_24: -9063312756676119620
+      SEA-01_31: -2134563999309645496
+      SEA-01_12: 2647992998520269227
+      SEA-01_22: -7516649200357874168
+      SEA-01_3: 7640497481509859778
+      SEA-01_17: 5001479068571170856
+      SEA-01_15: -8520542434678330527
+      SEA-01_2: 2362448008352462234
+      SEA-01_29: 2635397399705795795
+      SEA-01_11: -8752184367194916366
+      SEA-01_13: 7132583250472348732
+      SEA-01_1: 691009807822118435
+      SEA-01_5: 7882842289517655864
+      SEA-01_6: -5277911686428163728
+      SEA-01_8: 2473608875232798760
+      SEA-01_14: -665644872516492845
+      SEA-01_19: -2096798072688666265
+      SEA-01_23: 936184993784471090
+      SEA-01_18: 7849485857931036597
+      SEA-01_32: -6295835340339943258
+      SEA-01_26: -7382968783300140065
+      SEA-01_27: -2348713942980090041
+      SEA-01_10: 2857572175909007868
+      SEA-01_33: -7866234809427489020
+      SEA-01_30: 2508194860657542130
+      SEA-01_7: 3672954687504181967
+      SEA-01_0: -5279687713848174675
+      SEA-01_28: -1068783309017823523
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
