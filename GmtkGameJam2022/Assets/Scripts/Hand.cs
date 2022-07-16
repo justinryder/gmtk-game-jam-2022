@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class Hand : MonoBehaviour
 {
-    public float CardSpacing = 5;
+    // public float CardSpacing = 5;
+    float MinAngle = -1;
+    float MaxAngle = 1;
+    float XScalar = 5;
+    float YScalar = 2;
 
     private List<Card> _cards;
 
@@ -14,31 +18,34 @@ public class Hand : MonoBehaviour
 
         card.transform.parent = transform;
 
-        card.transform.position = CalculateCardPosition(_cards.Count - 1, _cards.Count);
+        for(var i = 0; i< _cards.Count; i++)
+        {
+           _cards[i].AnimateTo(CalculateCardPosition(i, _cards.Count));
+        }
     }
 
     private Vector3 CalculateCardPosition(int index, int total)
     {
-        // var totalWidth = total * CardSpacing;
-        // var halfWidth = totalWidth / 2;
-        // var position = index * CardSpacing;
+        var alpha = (float)(index + 1) / (float)(total + 1);
+
+        var angle = Mathf.Lerp(MinAngle, MaxAngle, alpha);
 
         return new Vector3(
-            index * CardSpacing,
-            0,
-            0
+            Mathf.Sin(angle) * XScalar,
+            Mathf.Cos(angle) * YScalar,
+            -alpha
         );
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        _cards = new List<Card>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // try calculating and lerping to arc for each card
+        
     }
 }

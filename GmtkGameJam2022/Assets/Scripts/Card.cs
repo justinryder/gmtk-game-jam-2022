@@ -13,6 +13,7 @@ public class CardData
     public int Chance;
 }
 
+[RequireComponent(typeof(AnimateTo))]
 public class Card : MonoBehaviour
 {
     public TextMeshProUGUI ActionText;
@@ -31,8 +32,19 @@ public class Card : MonoBehaviour
         ActionText.text = ResolveTextSize(card.Action, ActionLineLength);
         DescriptionText.text = ResolveTextSize(card.Description, DescriptionLineLength);
         ChanceText.text = card.Chance.ToString() + "%";
-        Image.sprite = card.Image;
-        WhiskerImage.sprite = card.WhiskerImage;
+        if (card.Image)
+        {
+            Image.sprite = card.Image;
+        }
+        if (card.WhiskerImage)
+        {
+            WhiskerImage.sprite = card.WhiskerImage;
+        }
+    }
+
+    public void AnimateTo(Vector3 targetPosition)
+    {
+        GetComponent<AnimateTo>().AnimateToPosition(targetPosition);
     }
 
 
