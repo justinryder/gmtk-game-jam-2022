@@ -332,6 +332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6497684037239167429}
   - component: {fileID: 6497684037239167426}
+  - component: {fileID: 4137474851679921983}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -409,6 +410,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4137474851679921983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6497684037239167427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7905ff3a9ae5e804b9900286ba82cf54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextMesh: {fileID: 6497684037174553667}
+  Image: {fileID: 2916153562393147797}
 --- !u!1001 &8999123370433421251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -478,6 +493,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c73aff9c758f58c419a39c36de8fec24, type: 3}
+--- !u!212 &2916153562393147797 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6096481021534365270, guid: c73aff9c758f58c419a39c36de8fec24, type: 3}
+  m_PrefabInstance: {fileID: 8999123370433421251}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5028986037850590372 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4119037939611226983, guid: c73aff9c758f58c419a39c36de8fec24, type: 3}
