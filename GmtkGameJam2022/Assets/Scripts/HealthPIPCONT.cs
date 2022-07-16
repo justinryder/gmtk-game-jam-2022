@@ -6,19 +6,18 @@ public class HealthPIPCONT : MonoBehaviour
 {
     public void SetPip (bool on)
     {
+        var renderer = GetComponent<Renderer>();
+
         if (on) 
         {
-            gameObject.SetActive(true);
-
-        } else 
-
+            renderer.material.color = Color.green;
+        }
+        else
         {
-            gameObject.SetActive(false);
-            
+            renderer.material.color = Color.red;
         }
 
     }
-
 
     // Start is called before the first frame update
     void Start()

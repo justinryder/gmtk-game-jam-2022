@@ -4,30 +4,54 @@ using UnityEngine;
 
 public class HealthBarController : MonoBehaviour
 {
+    private const bool DebugControls = true;
+
+    public const int MaxHealth = 9;
+
     public List<HealthPIPCONT> HealthPips;
 
-    void Sethealth(int health)
+    private int _health;
+
+    private void SetHealth(int health)
     {
-        for(var i=0; i<HealthPips.Count; i++)
+        _health = health;
+
+        for (var i = 0; i < HealthPips.Count; i++)
         {
             HealthPips[i].SetPip(i<health);
-
-
         }
+    }
 
+    public void GainHealth(int deltaHealth)
+    {
+        var newHealth = Mathf.Min(_health + deltaHealth, MaxHealth);
+        SetHealth(newHealth);
+    }
 
+    public void LoseHealth(int deltaHealth)
+    {
+        GainHealth(-deltaHealth);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        Sethealth(5);
-        
+        SetHealth(9);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (DebugControls)
+        {
+            if (Input.GetKeyUp(KeyCode.UpArrow))
+            {
+                GainHealth(1);
+            }
+            if (Input.GetKeyUp(KeyCode.DownArrow))
+            {
+                LoseHealth(1);
+            }
+        }
     }
 }
