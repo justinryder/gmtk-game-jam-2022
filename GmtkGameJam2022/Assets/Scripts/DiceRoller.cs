@@ -8,7 +8,7 @@ public class DiceRoller : MonoBehaviour
     public List<Sprite> Faces;
 
     public float TimePerSide = 0.2f;
-    public int TotalRolls = 10;
+    public int TotalRolls = 8;
 
     private float _start;
     private int _rollCount;

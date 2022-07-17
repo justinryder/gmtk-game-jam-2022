@@ -674,6 +674,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 6778624847914976680, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
+      propertyPath: TotalRolls
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7039756883816634376, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
       propertyPath: m_RootOrder
       value: 7

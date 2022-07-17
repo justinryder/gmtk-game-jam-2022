@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d2efc6ab226bba9418e92c530837b96b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 044d38416182fdb43af06e7962ad7651, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -90,11 +90,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Faces:
-  - {fileID: 21300000, guid: d2efc6ab226bba9418e92c530837b96b, type: 3}
+  - {fileID: 21300000, guid: 044d38416182fdb43af06e7962ad7651, type: 3}
   - {fileID: 21300000, guid: da8c9b8cd7e43cb4aa8e014bbc035b2a, type: 3}
   - {fileID: 21300000, guid: 41f5129bcdb7864428404e6e4235ad31, type: 3}
   - {fileID: 21300000, guid: 1949a01675469e345889d214ea1a2f4c, type: 3}
   - {fileID: 21300000, guid: 1f6a35209c79c0a42bef3c49713c8b78, type: 3}
   - {fileID: 21300000, guid: 9b7c100dc67799b4e9d1eb77fcf7acb3, type: 3}
   TimePerSide: 0.2
-  TotalRolls: 10
+  TotalRolls: 8
