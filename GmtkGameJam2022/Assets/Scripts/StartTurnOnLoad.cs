@@ -11,6 +11,7 @@ public class StartTurnOnLoad : MonoBehaviour
         if (!gameController)
         {
             Debug.Log("Can't start turn, no GameController tag found");
+            return;
         }
 
         gameController.StartTurn();
