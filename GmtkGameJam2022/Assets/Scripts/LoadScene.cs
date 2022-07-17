@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
-    private bool debug = false;
+    private bool debug = true;
 
     public float duration = 10;
 
