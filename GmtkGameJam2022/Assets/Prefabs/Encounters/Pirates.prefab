@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7265188194947587670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.Name
+      value: Pirates
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.InitMessage
+      value: You encounter a "merry" bunch of pirates. I wonder if they are friendly?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeFailResult.Text
+      value: gunfire rings out as you flee
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeSuccessResult.Text
+      value: they look at you confused as you run
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralFailResult.Text
+      value: they aren't too keen on you there
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.StealthFailResult.Text
+      value: unfourtnately you are not as agile is you think
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlyFailResult.Text
+      value: they are alerted to you and attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeFailResult.TimeDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.AggressiveFailResult.Text
+      value: you were wounded gravely
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralSuccessResult.Text
+      value: they leave you to your business
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.StealthSuccessResult.Text
+      value: you get by and they never knew you were there
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeFailResult.HealthDelta
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlySuccessResult.Text
+      value: they seem to give you pets and let you on your way
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeSuccessResult.TimeDelta
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.AggressiveSuccessResult.Text
+      value: they respect your ferocity and let you continue on
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralFailResult.HealthDelta
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.AggressiveFailResult.TimeDelta
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlyFailResult.HealthDelta
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.StealthSuccessResult.TimeDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlySuccessResult.TimeDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.AggressiveFailResult.HealthDelta
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.AggressiveSuccessResult.TimeDelta
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749700, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_Name
+      value: Pirates
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe615afcf7220734f86c963e88df93ed, type: 3}

@@ -15,7 +15,7 @@ public class HealthBarController : MonoBehaviour
 
     public TextMeshProUGUI LabelText;
    
-   private const bool DebugControls = true;
+   private const bool DebugControls = false;
 
     public int MaxHealth = 9;
 
@@ -28,6 +28,8 @@ public class HealthBarController : MonoBehaviour
     public string Label = "Lives:";
 
     private int _health;
+
+    public int Health { get { return _health; } }
 
     private void SetHealth(int health)
     {

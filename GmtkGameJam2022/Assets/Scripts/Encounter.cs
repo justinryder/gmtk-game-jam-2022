@@ -24,6 +24,7 @@ public class EncounterResult
 public class EncounterData
 {
     public string Name; // The Mailman
+    public string InitMessage; // The Mailman appraches you. They might step on your floofy tail! What do you do?
 
     public EncounterResult AggressiveSuccessResult;
     public EncounterResult AggressiveFailResult;
@@ -67,12 +68,38 @@ public class Encounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        var gameControllerObject = GameObject.FindWithTag("GameController");
+        if (!gameControllerObject)
+        {
+            Debug.Log("Can't set message, no GameController tag found");
+            return;
+        }
+
+        var gameController = gameControllerObject.GetComponent<GameController>();
+        if (!gameController)
+        {
+            Debug.Log("No GameController component found on tagged game object");
+            return;
+        }
+        gameController.SetEncounterMessage();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public static Encounter GetEncounter()
+    {
+        var encounterGameObject = GameObject.FindWithTag("Encounter");
+        
+        if (!encounterGameObject)
+        {
+            Debug.Log("No Encounter tagged object in scene.");
+            return null;
+        }
+        
+        return encounterGameObject.GetComponent<Encounter>();
     }
 }

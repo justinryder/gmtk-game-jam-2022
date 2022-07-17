@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
+    private bool debug = false;
 
     public float duration = 10;
 
@@ -27,14 +28,20 @@ public class LoadScene : MonoBehaviour
         if (done) return;
 
         if (Time.time>start+duration)
-        
+
         {
             done=true; 
-        
-            Debug.Log("Trying to load scene");
-           
+                   
             SceneManager.LoadScene(sceneName);
 
+        }
+
+        if (debug)
+        {
+            if (Input.GetKeyUp(KeyCode.Slash))
+            {
+                SceneManager.LoadScene(sceneName);
+            }
         }
     }
 }

@@ -21,7 +21,7 @@ public class CardData
     public Sprite WhiskerImage;
     public string Action;
     public string Description;
-    public int Bonus;
+    public int Bonus; // +/- to roll
     public CardType Type = CardType.Neutral;
     public string PlayString; // You attempt to ...
 }
@@ -37,7 +37,7 @@ public static class IntExtensions
         }
         if (value == 0)
         {
-            return "";
+            return "0";
         }
         return value.ToString();
     }
@@ -45,6 +45,7 @@ public static class IntExtensions
 
 
 [RequireComponent(typeof(AnimateTo))]
+[RequireComponent(typeof(AnimateToScale))]
 [RequireComponent(typeof(AnimateToThenDestroy))]
 public class Card : MonoBehaviour
 {
@@ -55,6 +56,12 @@ public class Card : MonoBehaviour
     public SpriteRenderer Image;
     public GameObject CanvasImage;
     public SpriteRenderer WhiskerImage;
+    public TextMeshProUGUI TimeBonusText;
+    public TextMeshProUGUI LifeBonusText;
+    public GameObject DiceBonusImage;
+    public TextMeshProUGUI DiceBonusText;
+
+    public List<Sprite> DiceImages;
 
     public int ActionLineLength = 20;
     public int DescriptionLineLength = 40;
@@ -93,6 +100,44 @@ public class Card : MonoBehaviour
         {
             TypeText.text = card.Type.ToString();
         }
+        // TODO made this show based on the encounter
+
+        var encounter = Encounter.GetEncounter();
+        if (TimeBonusText != null)
+        {
+            TimeBonusText.text = string.Format(
+                "{0}/{1}",
+                encounter.GetResultByCardType(card.Type, false).TimeDelta.ToSignedString(),
+                encounter.GetResultByCardType(card.Type, true).TimeDelta.ToSignedString()
+            );
+        }
+        if (LifeBonusText != null)
+        {
+            LifeBonusText.text = string.Format(
+                "{0}/{1}",
+                encounter.GetResultByCardType(card.Type, false).HealthDelta.ToSignedString(),
+                encounter.GetResultByCardType(card.Type, true).HealthDelta.ToSignedString()
+            );
+        }
+
+        if (DiceBonusImage != null)
+        {
+            if (cardData.Bonus > 0)
+            {
+                DiceBonusImage.GetComponent<UnityEngine.UI.Image>().sprite = DiceImages[cardData.Bonus - 1];
+            }
+            else
+            {
+                DiceBonusImage.GetComponent<UnityEngine.UI.Image>().enabled = false;
+            }
+        }
+        if (DiceBonusText != null)
+        {
+            if (cardData.Bonus <= 0)
+            {
+                DiceBonusText.text = "";
+            }
+        }
     }
 
     public void AnimateTo(Vector3 targetPosition)
@@ -105,46 +150,23 @@ public class Card : MonoBehaviour
         GetComponent<AnimateToThenDestroy>().AnimateToPosition(targetPosition);
     }
 
-    public void Play()
+    public void AnimateToScale(Vector3 targetScale)
     {
-        var healthBarGameObject = GameObject.FindWithTag("HealthBar");
-        var timeBarGameObject = GameObject.FindWithTag("TimeBar");
-        var encounterGameObject = GameObject.FindWithTag("Encounter");
-        if (!healthBarGameObject)
-        {
-            Debug.Log("No HealthBar tagged object in scene.");
-            return;
-        }
-        if (!timeBarGameObject)
-        {
-            Debug.Log("No TimeBar tagged object in scene.");
-            return;
-        }
-        if (!encounterGameObject)
-        {
-            Debug.Log("No Encounter tagged object in scene.");
-            return;
-        }
-
-        var healthBar = healthBarGameObject.GetComponent<HealthBarController>();
-        var timeBar = timeBarGameObject.GetComponent<HealthBarController>();
-        var encounter = encounterGameObject.GetComponent<Encounter>();
-
-        var success = rng.Next(0, 2) == 0; // TODO dice roll to determine, accounting for bonus by type
-
-        var result = encounter.GetResultByCardType(cardData.Type, success);
-
-        healthBar.GainHealth(result.HealthDelta);
-        timeBar.GainHealth(result.TimeDelta);
-
-        var resultMessage = string.Format("{0}, {1}",
-            cardData.PlayString.Replace("%E", encounter.encounterData.Name),
-            result.Text
-        );
-
-        Debug.Log(string.Format("Result: {0} HealthDelta: {2} TurnDelta: {3}\nResult Message: {1}", success ? "Success" : "Fail", resultMessage, result.HealthDelta, result.TimeDelta));
+        GetComponent<AnimateToScale>().Animate(targetScale);
     }
 
+    private bool _hovering;
+    public bool Hovering { get { return _hovering; } }
+
+    public void OnHoverStart()
+    {
+        _hovering = true;
+    }
+
+    public void OnHoverEnd()
+    {
+        _hovering = false;
+    }
 
     // Start is called before the first frame update
     void Start()

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &644722441430228053
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.Name
+      value: Dragons
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.InitMessage
+      value: We've floated into a horde of DRAGONS...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeFailResult.Text
+      value: the dragon doesn't hesitate and gets you
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeSuccessResult.Text
+      value: you barely get away, just barely
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralFailResult.Text
+      value: The dragon runs to you and chomps
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.StealthFailResult.Text
+      value: the dragon sees you and gives you a chomp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlyFailResult.Text
+      value: the dragon jumps towards you and bites
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeFailResult.TimeDelta
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.AggressiveFailResult.Text
+      value: the dragon is having none of this and bites
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralSuccessResult.Text
+      value: The dragon runs to you and chomps
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.StealthSuccessResult.Text
+      value: you barely get away, losing the dragon behind a tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeFailResult.HealthDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlySuccessResult.Text
+      value: the dragon slowly approches and licks you
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeSuccessResult.TimeDelta
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.StealthFailResult.TimeDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.AggressiveSuccessResult.Text
+      value: the dragon cowers and retreats
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.StealthFailResult.HealthDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlyFailResult.HealthDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlySuccessResult.TimeDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralSuccessResult.HealthDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlySuccessResult.HealthDelta
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749700, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_Name
+      value: Dragons
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe615afcf7220734f86c963e88df93ed, type: 3}

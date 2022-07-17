@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using TMPro;
 
@@ -11,7 +12,7 @@ public class Deck : MonoBehaviour
 
     public List<Card> AllCards;
 
-    public int DeckSize = 15;
+    public int DeckSize { get { return AllCards.Count; } }
 
     private Stack<Card> _deck;
 
@@ -21,7 +22,7 @@ public class Deck : MonoBehaviour
     {
         if (_deck.Count == 0)
         {
-            return;
+            NewDeck();
         }
 
         var cardPrefab = _deck.Pop();
@@ -35,20 +36,22 @@ public class Deck : MonoBehaviour
         UpdateText();
     }
 
-    // Start is called before the first frame update
-    void Start()
+    void NewDeck()
     {
         var cards = new List<Card>();
         for (var i = 0; i < DeckSize; i++)
         {
-            var allCardIndex = i % AllCards.Count;
-            if (allCardIndex == 0)
-            {
-                AllCards.Shuffle();
-            }
-            cards.Add(AllCards[allCardIndex]);
+            cards.Add(AllCards[i]);
         }
         _deck = new Stack<Card>(cards.Shuffle());
+
+        Debug.Log("New Deck: " + string.Join(", ", cards.Select(card => card.cardData.Action)) + "\nFrom AllCards: " + string.Join(", ", AllCards.Select(card => card.cardData.Action)));
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        NewDeck();
 
         UpdateText();
     }
@@ -56,15 +59,15 @@ public class Deck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            Draw();
-        }
+        // if (Input.GetKeyUp(KeyCode.Space))
+        // {
+        //     Draw();
+        // }
     }
 
     void UpdateText()
     {
-        Text.text = _deck.Count.ToString();
+        Text.text = string.Format("{0}/{1}", _deck.Count.ToString(), DeckSize);
     }
 }
 
