@@ -37,7 +37,7 @@ public static class IntExtensions
         }
         if (value == 0)
         {
-            return "";
+            return "0";
         }
         return value.ToString();
     }
@@ -95,6 +95,27 @@ public class Card : MonoBehaviour
         {
             TypeText.text = card.Type.ToString();
         }
+        // TODO made this show based on the encounter
+
+        var encounter = Encounter.GetEncounter();
+        if (TimeBonusText != null)
+        {
+            TimeBonusText.text = string.Format(
+                "{0}/{1}",
+                encounter.GetResultByCardType(card.Type, false).TimeDelta.ToSignedString(),
+                encounter.GetResultByCardType(card.Type, true).TimeDelta.ToSignedString()
+            );
+        }
+        if (LifeBonusText != null)
+        {
+            LifeBonusText.text = string.Format(
+                "{0}/{1}",
+                encounter.GetResultByCardType(card.Type, false).HealthDelta.ToSignedString(),
+                encounter.GetResultByCardType(card.Type, true).HealthDelta.ToSignedString()
+            );
+        }
+        // TimeBonusText
+        // LifeBonusText
     }
 
     public void AnimateTo(Vector3 targetPosition)

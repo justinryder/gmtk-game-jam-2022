@@ -72,9 +72,15 @@ public class Encounter : MonoBehaviour
         if (!gameControllerObject)
         {
             Debug.Log("Can't set message, no GameController tag found");
+            return;
         }
 
         var gameController = gameControllerObject.GetComponent<GameController>();
+        if (!gameController)
+        {
+            Debug.Log("No GameController component found on tagged game object");
+            return;
+        }
         gameController.SetEncounterMessage();
     }
 
@@ -82,5 +88,18 @@ public class Encounter : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public static Encounter GetEncounter()
+    {
+        var encounterGameObject = GameObject.FindWithTag("Encounter");
+        
+        if (!encounterGameObject)
+        {
+            Debug.Log("No Encounter tagged object in scene.");
+            return null;
+        }
+        
+        return encounterGameObject.GetComponent<Encounter>();
     }
 }
