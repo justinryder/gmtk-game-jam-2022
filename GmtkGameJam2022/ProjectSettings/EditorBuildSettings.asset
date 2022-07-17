@@ -60,6 +60,9 @@ EditorBuildSettings:
     path: Assets/Scenes/WIN.unity
     guid: 79e0c818d997e3a428bf01fcdf69ae15
   - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 386180cfcd50b3a4cb5419f628495c53
+  - enabled: 1
     path: Assets/Scenes/Encounters/CatGang/FennySAMPLE.unity
     guid: 64b2c8936ccfa754794813e2638e1c56
   m_configObjects: {}

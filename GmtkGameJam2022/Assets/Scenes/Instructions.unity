@@ -123,6 +123,137 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &14294677
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1238526346}
+    m_Modifications:
+    - target: {fileID: 1231052154521825357, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_text
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787628, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_Name
+      value: Canvas QuitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787630, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 14294680}
+    - target: {fileID: 1231052155991787630, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 263
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 143
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+--- !u!224 &14294678 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1231052155991787631, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+  m_PrefabInstance: {fileID: 14294677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &14294679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1231052155991787628, guid: 4859d55d392232540bde9e40b1f94b22, type: 3}
+  m_PrefabInstance: {fileID: 14294677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &14294680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14294679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829a22b351652de478feee6d64806738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &43958979
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 441}
+  m_AnchoredPosition: {x: 1, y: 452}
   m_SizeDelta: {x: 1920, y: 1280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &308080720
@@ -257,7 +388,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Welcome! And thank you for playing "CAT JAM". This game was developed
+  m_text: 'Welcome! And thank you for playing "CAT JAM".
+
+    This game was developed
     during the 2022 GMTK Game Jam. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -559,8 +692,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1238526346}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -696,8 +828,9 @@ RectTransform:
   - {fileID: 1837688946}
   - {fileID: 1496845243}
   - {fileID: 308080719}
-  m_Father: {fileID: 905904136}
-  m_RootOrder: 0
+  - {fileID: 14294678}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -800,7 +933,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: -188}
+  m_AnchoredPosition: {x: 12, y: -151}
   m_SizeDelta: {x: 1920, y: 1280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1496845244
@@ -824,8 +957,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Instructions\n1. Proceed to the start page and click on XXX button\n2.
-    Venture through the various senarios  that our Cat Jam friend encounters\n3.
-    At each senario you will be tasked with selecting a card. That card will result
+    Venture through the various senarios that our Cat Jam friend encounters\n3. At
+    each senario you will be tasked with selecting a card. That card will result
     in a comination of a loss of turns or lives. \n4. To win, you must survive the
     adventures with one of your nine lives remaining!"
   m_isRightToLeft: 0
@@ -890,7 +1023,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 582.43695, y: 592.26843, z: 672.72125, w: 45.16384}
+  m_margin: {x: 569.87646, y: 592.26843, z: 672.72107, w: 45.16384}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
