@@ -79,7 +79,7 @@ public class Hand : MonoBehaviour
         var resultMessage = string.Format("{0}, {1}\n{2}",
             card.cardData.PlayString.Replace("%E", encounter.encounterData.Name),
             result.Text,
-            string.Join("\n", new List<string>() {
+            string.Join(" ", new List<string>() {
                 result.HealthDelta != 0 ? string.Format("{0} Lives", result.HealthDelta.ToSignedString()) : "",
                 result.TimeDelta != 0 ? string.Format("{0} Time", result.TimeDelta.ToSignedString()) : "",
             }.Where(s => !string.IsNullOrEmpty(s)))

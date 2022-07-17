@@ -52,7 +52,7 @@ public class GameController : MonoBehaviour
     {
         if (MessageText)
         {
-            MessageText.text = "Embark on an adventure to find your way back home! Click Next Encounter when you are ready to begin.";
+            MessageText.text = "Embark on an adventure to find your way back home!\nClick Next Encounter when you are ready to begin.";
         }
     }
 
