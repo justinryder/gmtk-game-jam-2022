@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,13 +10,15 @@ public class AnimateTo : MonoBehaviour
     private float _duration = 1;
     private float _start;
     private bool _done = false;
+    private Action _onComplete;
 
-    public void AnimateToPosition(Vector3 targetPosition)
+    public void AnimateToPosition(Vector3 targetPosition, Action onComplete = null)
     {
         _initialPosition = transform.localPosition;
         _targetPosition = targetPosition;
         _start = Time.time;
         _done = false;
+        _onComplete = onComplete;
     }
 
     void Update()
@@ -29,6 +32,10 @@ public class AnimateTo : MonoBehaviour
         if (alpha >= 1)
         {
             _done = true;
+            if (_onComplete != null)
+            {
+                _onComplete();
+            }
         }
 
         transform.localPosition = Vector3.Lerp(_initialPosition, _targetPosition, alpha);
