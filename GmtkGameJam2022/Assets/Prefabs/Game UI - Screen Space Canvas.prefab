@@ -1449,6 +1449,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2158567843975901917}
     m_Modifications:
     - target: {fileID: 4944763669973053088, guid: 42edfbd25562b0240ab2319c7b8c9fbc, type: 3}
+      propertyPath: XScalar
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944763669973053088, guid: 42edfbd25562b0240ab2319c7b8c9fbc, type: 3}
       propertyPath: timeBar
       value: 
       objectReference: {fileID: 2175032880720483848}

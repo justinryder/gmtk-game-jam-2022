@@ -128,6 +128,19 @@ public class Card : MonoBehaviour
         GetComponent<AnimateToThenDestroy>().AnimateToPosition(targetPosition);
     }
 
+    private bool _hovering;
+    public bool Hovering { get { return _hovering; } }
+    
+    public void OnHoverStart()
+    {
+        _hovering = true;
+    }
+
+    public void OnHoverEnd()
+    {
+        _hovering = false;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
