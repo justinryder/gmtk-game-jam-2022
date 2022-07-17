@@ -45,6 +45,7 @@ public static class IntExtensions
 
 
 [RequireComponent(typeof(AnimateTo))]
+[RequireComponent(typeof(AnimateToScale))]
 [RequireComponent(typeof(AnimateToThenDestroy))]
 public class Card : MonoBehaviour
 {
@@ -114,8 +115,6 @@ public class Card : MonoBehaviour
                 encounter.GetResultByCardType(card.Type, true).HealthDelta.ToSignedString()
             );
         }
-        // TimeBonusText
-        // LifeBonusText
     }
 
     public void AnimateTo(Vector3 targetPosition)
@@ -128,9 +127,14 @@ public class Card : MonoBehaviour
         GetComponent<AnimateToThenDestroy>().AnimateToPosition(targetPosition);
     }
 
+    public void AnimateToScale(Vector3 targetScale)
+    {
+        GetComponent<AnimateToScale>().Animate(targetScale);
+    }
+
     private bool _hovering;
     public bool Hovering { get { return _hovering; } }
-    
+
     public void OnHoverStart()
     {
         _hovering = true;

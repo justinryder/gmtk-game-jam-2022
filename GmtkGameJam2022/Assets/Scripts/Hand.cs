@@ -51,6 +51,7 @@ public class Hand : MonoBehaviour
     public void Discard(Card card)
     {
         card.AnimateToThenDestroy(DiscardTarget.localPosition);
+        card.AnimateToScale(Vector3.one);
         _cards.Remove(card);
     }
 
@@ -97,6 +98,7 @@ public class Hand : MonoBehaviour
         _cards = new List<Card> { card };
 
         card.AnimateTo(SelectedTarget.localPosition);
+        card.AnimateToScale(Vector3.one * 1.3f);
         card.GetComponent<Button>().enabled = false;
 
         NextEncounterButton.interactable = true;

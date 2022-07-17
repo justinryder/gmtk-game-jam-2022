@@ -7,6 +7,8 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    private bool debug = true;
+
     public List<string> EncounterScenes;
     private int _encounterIndex;
 
@@ -46,7 +48,13 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        
+        if (debug)
+        {
+            if (Input.GetKeyUp(KeyCode.Backslash))
+            {
+                LoadNextEncounter();
+            }
+        }
     }
 
     public void SetEncounterMessage()
