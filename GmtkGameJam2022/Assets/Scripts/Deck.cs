@@ -21,7 +21,7 @@ public class Deck : MonoBehaviour
     {
         if (_deck.Count == 0)
         {
-            return;
+            NewDeck();
         }
 
         var cardPrefab = _deck.Pop();
@@ -35,8 +35,7 @@ public class Deck : MonoBehaviour
         UpdateText();
     }
 
-    // Start is called before the first frame update
-    void Start()
+    void NewDeck()
     {
         var cards = new List<Card>();
         for (var i = 0; i < DeckSize; i++)
@@ -49,6 +48,12 @@ public class Deck : MonoBehaviour
             cards.Add(AllCards[allCardIndex]);
         }
         _deck = new Stack<Card>(cards.Shuffle());
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        NewDeck();
 
         UpdateText();
     }
@@ -64,7 +69,7 @@ public class Deck : MonoBehaviour
 
     void UpdateText()
     {
-        Text.text = _deck.Count.ToString();
+        Text.text = string.Format("{0}/{1}", _deck.Count.ToString(), DeckSize);
     }
 }
 
