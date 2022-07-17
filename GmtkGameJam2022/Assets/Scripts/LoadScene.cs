@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
+    private bool debug = false;
 
     public float duration = 10;
 
@@ -35,9 +36,12 @@ public class LoadScene : MonoBehaviour
 
         }
 
-        if (Input.GetKeyUp(KeyCode.Slash))
+        if (debug)
         {
-            SceneManager.LoadScene(sceneName);
+            if (Input.GetKeyUp(KeyCode.Slash))
+            {
+                SceneManager.LoadScene(sceneName);
+            }
         }
     }
 }

@@ -61,10 +61,10 @@ public class Deck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            Draw();
-        }
+        // if (Input.GetKeyUp(KeyCode.Space))
+        // {
+        //     Draw();
+        // }
     }
 
     void UpdateText()
