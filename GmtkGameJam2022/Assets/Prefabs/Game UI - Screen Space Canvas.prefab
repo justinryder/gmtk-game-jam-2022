@@ -693,6 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EncounterScenes:
+  - Scenes/Encounters/Mailman/Mailman
   - Scenes/Encounters/BoatPirates/FennyRaftOcean
   - Scenes/Encounters/Dragon/DragonTEST
   - Scenes/Encounters/RAVEZOO/FINALRAVEZOO

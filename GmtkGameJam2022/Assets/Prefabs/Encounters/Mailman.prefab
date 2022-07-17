@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.InitMessage
+      value: I sees the Mailman! I can haz hug?!
+      objectReference: {fileID: 0}
     - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5367027074090749700, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
       propertyPath: m_Name
-      value: Encounter
+      value: Mailman
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
