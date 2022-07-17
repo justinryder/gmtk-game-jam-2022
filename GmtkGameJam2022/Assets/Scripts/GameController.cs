@@ -7,10 +7,13 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    private bool debug = true;
+
     public List<string> EncounterScenes;
     private int _encounterIndex;
 
     public string winScene;
+    public string loseScene;
 
     public TextMeshProUGUI MessageText;
 
@@ -19,10 +22,24 @@ public class GameController : MonoBehaviour
     public Hand hand;
 
     public Button NextEncounterButton;
+    public HealthBarController healthBar;
+    public HealthBarController timeBar;
+
+    public DiceRoller DiceRoller;
 
     public int DrawCount = 5;
 
     private static System.Random rng = new System.Random();
+
+    public static GameController GetGameController()
+    {
+        var gameControllerObject = GameObject.FindWithTag("GameController");
+        if (!gameControllerObject)
+        {
+            return null;
+        }
+        return gameControllerObject.GetComponent<GameController>();
+    }
 
     void Awake()
     {
@@ -40,13 +57,19 @@ public class GameController : MonoBehaviour
     {
         if (MessageText)
         {
-            MessageText.text = "Embark on an adventure to find your way back home! Click Next Encounter when you are ready to begin.";
+            MessageText.text = "Embark on an adventure to find your way back home!\nClick Next Encounter when you are ready to begin.";
         }
     }
 
     void Update()
     {
-        
+        if (debug)
+        {
+            if (Input.GetKeyUp(KeyCode.Backslash))
+            {
+                LoadNextEncounter();
+            }
+        }
     }
 
     public void SetEncounterMessage()
@@ -79,6 +102,11 @@ public class GameController : MonoBehaviour
 
         NextEncounterButton.interactable = false;
         NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+
+        if (DiceRoller)
+        {
+            DiceRoller.Hide();
+        }
     }
 
     public void StartTurn()
@@ -97,6 +125,26 @@ public class GameController : MonoBehaviour
         if (EncounterScenes.Count == 0)
         {
             Debug.Log("No encounters");
+            return;
+        }
+
+        if (healthBar.Health <= 0)
+        {
+            Debug.Log("Died");
+            if (!string.IsNullOrEmpty(loseScene))
+            {
+                SceneManager.LoadScene(loseScene);
+            }
+            return;
+        }
+
+        if (timeBar.Health <= 0)
+        {
+            Debug.Log("Out of Time");
+            if (!string.IsNullOrEmpty(loseScene))
+            {
+                SceneManager.LoadScene(loseScene);
+            }
             return;
         }
 

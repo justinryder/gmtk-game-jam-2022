@@ -2,18 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartTurnOnLoad : MonoBehaviour
+public class DestroyGameControllerOnLoad : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
         var gameController = GameController.GetGameController();
-        if (!gameController)
+        if (gameController)
         {
-            Debug.Log("Can't start turn, no GameController tag found");
+            Destroy(gameController.gameObject);
         }
-
-        gameController.StartTurn();
     }
 
     // Update is called once per frame

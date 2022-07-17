@@ -34,5 +34,10 @@ public class LoadScene : MonoBehaviour
             SceneManager.LoadScene(sceneName);
 
         }
+
+        if (Input.GetKeyUp(KeyCode.Slash))
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }

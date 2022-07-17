@@ -29,6 +29,8 @@ public class HealthBarController : MonoBehaviour
 
     private int _health;
 
+    public int Health { get { return _health; } }
+
     private void SetHealth(int health)
     {
         _health = health;
