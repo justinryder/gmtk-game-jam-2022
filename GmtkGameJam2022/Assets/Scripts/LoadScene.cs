@@ -27,12 +27,10 @@ public class LoadScene : MonoBehaviour
         if (done) return;
 
         if (Time.time>start+duration)
-        
+
         {
             done=true; 
-        
-            Debug.Log("Trying to load scene");
-           
+                   
             SceneManager.LoadScene(sceneName);
 
         }
