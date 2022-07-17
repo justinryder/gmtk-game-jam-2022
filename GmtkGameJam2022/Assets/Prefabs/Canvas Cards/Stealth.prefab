@@ -21,7 +21,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6724636348199439193, guid: 96fb3b125e5cfff479db55d8f8ea3bea, type: 3}
       propertyPath: cardData.PlayString
-      value: You slowly work your way around trying to avaoid %E
+      value: You slowly work your way around trying to avoid %E
       objectReference: {fileID: 0}
     - target: {fileID: 6724636348199439193, guid: 96fb3b125e5cfff479db55d8f8ea3bea, type: 3}
       propertyPath: cardData.CanvasImage
