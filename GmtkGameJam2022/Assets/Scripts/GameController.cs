@@ -26,6 +26,16 @@ public class GameController : MonoBehaviour
 
     private static System.Random rng = new System.Random();
 
+    public static GameController GetGameController()
+    {
+        var gameControllerObject = GameObject.FindWithTag("GameController");
+        if (!gameControllerObject)
+        {
+            return null;
+        }
+        return gameControllerObject.GetComponent<GameController>();
+    }
+
     void Awake()
     {
         var other = GameObject.FindWithTag("GameController");
