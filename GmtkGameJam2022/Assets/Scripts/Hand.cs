@@ -20,6 +20,8 @@ public class Hand : MonoBehaviour
     public Transform DiscardTarget;
     public Transform SelectedTarget;
 
+    public Button NextEncounterButton;
+
     private List<Card> _cards;
 
     private static System.Random rng = new System.Random();
@@ -54,8 +56,7 @@ public class Hand : MonoBehaviour
 
     void HandleCardClick(Card card)
     {
-        Debug.Log("Clicked card" + card.cardData.Action);
-        // card.Play();
+        Debug.Log("Playing card " + card.cardData.Action);
 
         var encounterGameObject = GameObject.FindWithTag("Encounter");
         
@@ -96,6 +97,10 @@ public class Hand : MonoBehaviour
         _cards = new List<Card> { card };
 
         card.AnimateTo(SelectedTarget.localPosition);
+        card.GetComponent<Button>().enabled = false;
+
+        NextEncounterButton.interactable = true;
+        NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = true;
     }
 
     private Vector3 CalculateCardPosition(int index, int total)

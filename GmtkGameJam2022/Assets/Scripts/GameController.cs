@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -13,6 +14,8 @@ public class GameController : MonoBehaviour
     public Deck deck;
 
     public Hand hand;
+
+    public Button NextEncounterButton;
 
     public int DrawCount = 3;
 
@@ -61,6 +64,8 @@ public class GameController : MonoBehaviour
     {
         SetEncounterMessage();
 
+        Debug.Log("Starting encounter. Discard hand, draw new hand, disable next encounter button");
+
         if (hand)
         {
             hand.Discard();
@@ -73,6 +78,9 @@ public class GameController : MonoBehaviour
                 deck.Draw();
             }
         }
+
+        NextEncounterButton.interactable = false;
+        NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
     }
 
     public void LoadNextEncounter()
