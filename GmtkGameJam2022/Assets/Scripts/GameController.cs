@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
     private int _encounterIndex;
 
     public string winScene;
+    public string loseScene;
 
     public TextMeshProUGUI MessageText;
 
@@ -21,6 +22,8 @@ public class GameController : MonoBehaviour
     public Hand hand;
 
     public Button NextEncounterButton;
+    public HealthBarController healthBar;
+    public HealthBarController timeBar;
 
     public int DrawCount = 5;
 
@@ -115,6 +118,26 @@ public class GameController : MonoBehaviour
         if (EncounterScenes.Count == 0)
         {
             Debug.Log("No encounters");
+            return;
+        }
+
+        if (healthBar.Health <= 0)
+        {
+            Debug.Log("Died");
+            if (!string.IsNullOrEmpty(loseScene))
+            {
+                SceneManager.LoadScene(loseScene);
+            }
+            return;
+        }
+
+        if (timeBar.Health <= 0)
+        {
+            Debug.Log("Out of Time");
+            if (!string.IsNullOrEmpty(loseScene))
+            {
+                SceneManager.LoadScene(loseScene);
+            }
             return;
         }
 

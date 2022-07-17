@@ -544,10 +544,13 @@ MonoBehaviour:
   - Scenes/Encounters/RAVEZOO/FINALRAVEZOO
   - Scenes/Encounters/CatGang/FennySAMPLE
   winScene: Menu
+  loseScene: Menu
   MessageText: {fileID: 3772410152407895075}
   deck: {fileID: 2158567843663874565}
   hand: {fileID: 2158567843800996967}
   NextEncounterButton: {fileID: 3471152403976312108}
+  healthBar: {fileID: 2826170515332540838}
+  timeBar: {fileID: 2175032880720483848}
   DrawCount: 5
 --- !u!1 &3050245953737716618
 GameObject:
