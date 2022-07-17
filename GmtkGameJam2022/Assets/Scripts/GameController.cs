@@ -57,7 +57,7 @@ public class GameController : MonoBehaviour
     {
         if (MessageText)
         {
-            MessageText.text = "Your ears perk up to the sound of a can opening, but you are far from home.\nHurry back before your food goes cold!\nRoll 4 or higher after bonus to win an encounter.\nClick Next Encounter when you are ready to begin.";
+            MessageText.text = "Your ears perk up to the sound of a can opening, but you are far from home.\nHurry back before your food goes cold!\nRoll 4 or higher after bonus to win an encounter.\nClick Continue when you are ready to begin.";
         }
     }
 
