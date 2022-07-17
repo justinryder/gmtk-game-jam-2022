@@ -58,6 +58,10 @@ public class Card : MonoBehaviour
     public SpriteRenderer WhiskerImage;
     public TextMeshProUGUI TimeBonusText;
     public TextMeshProUGUI LifeBonusText;
+    public GameObject DiceBonusImage;
+    public TextMeshProUGUI DiceBonusText;
+
+    public List<Sprite> DiceImages;
 
     public int ActionLineLength = 20;
     public int DescriptionLineLength = 40;
@@ -114,6 +118,25 @@ public class Card : MonoBehaviour
                 encounter.GetResultByCardType(card.Type, false).HealthDelta.ToSignedString(),
                 encounter.GetResultByCardType(card.Type, true).HealthDelta.ToSignedString()
             );
+        }
+
+        if (DiceBonusImage != null)
+        {
+            if (cardData.Bonus > 0)
+            {
+                DiceBonusImage.GetComponent<UnityEngine.UI.Image>().sprite = DiceImages[cardData.Bonus - 1];
+            }
+            else
+            {
+                DiceBonusImage.GetComponent<UnityEngine.UI.Image>().enabled = false;
+            }
+        }
+        if (DiceBonusText != null)
+        {
+            if (cardData.Bonus <= 0)
+            {
+                DiceBonusText.text = "";
+            }
         }
     }
 

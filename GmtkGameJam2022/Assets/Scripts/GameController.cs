@@ -57,7 +57,7 @@ public class GameController : MonoBehaviour
     {
         if (MessageText)
         {
-            MessageText.text = "Embark on an adventure to find your way back home!\nClick Next Encounter when you are ready to begin.";
+            MessageText.text = "Embark on an adventure to find your way back home!\nRoll 4 or higher after bonus to win an encounter.\nClick Next Encounter when you are ready to begin.";
         }
     }
 
