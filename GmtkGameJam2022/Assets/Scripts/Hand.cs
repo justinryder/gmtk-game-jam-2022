@@ -110,8 +110,7 @@ public class Hand : MonoBehaviour
                 result.TimeDelta
             ));
 
-            NextEncounterButton.interactable = true;
-            NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = true;
+            NextEncounterButton.gameObject.SetActive(true);
         });
 
         

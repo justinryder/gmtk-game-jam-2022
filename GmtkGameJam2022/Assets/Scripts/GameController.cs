@@ -100,8 +100,7 @@ public class GameController : MonoBehaviour
             hand.Discard();
         }
 
-        NextEncounterButton.interactable = false;
-        NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+        NextEncounterButton.gameObject.SetActive(false);
 
         if (DiceRoller)
         {
@@ -135,8 +134,7 @@ public class GameController : MonoBehaviour
             {
                 SceneManager.LoadScene(loseScene);
 
-                NextEncounterButton.interactable = false;
-                NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+                NextEncounterButton.gameObject.SetActive(false);
 
                 if (MessageText)
                 {
@@ -163,8 +161,7 @@ public class GameController : MonoBehaviour
             {
                 SceneManager.LoadScene(loseScene);
                 
-                NextEncounterButton.interactable = false;
-                NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+                NextEncounterButton.gameObject.SetActive(false);
 
                 if (MessageText)
                 {
@@ -191,8 +188,7 @@ public class GameController : MonoBehaviour
             {
                 SceneManager.LoadScene(winScene);
 
-                NextEncounterButton.interactable = false;
-                NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+                NextEncounterButton.gameObject.SetActive(false);
 
                 if (MessageText)
                 {
