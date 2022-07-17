@@ -221,23 +221,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 40b2d4ba354dd884c893708f4c791b4e, type: 3}
       propertyPath: m_LocalScale.x
-      value: -3.88
+      value: -1.69
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 40b2d4ba354dd884c893708f4c791b4e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.88
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 40b2d4ba354dd884c893708f4c791b4e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 7.76
+      value: 3.38
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 40b2d4ba354dd884c893708f4c791b4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 93.8
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 40b2d4ba354dd884c893708f4c791b4e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -26.8
+      value: -23.7
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 40b2d4ba354dd884c893708f4c791b4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -273,7 +273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 40b2d4ba354dd884c893708f4c791b4e, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184387, guid: 40b2d4ba354dd884c893708f4c791b4e, type: 3}
       propertyPath: m_Name
@@ -1041,13 +1041,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685246652}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e67d7dcec8125b3489ca058ba04ae7c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 12
-  sceneName: 
+  duration: 15
+  sceneName: CardgameDragon
 --- !u!114 &1685246654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1278,11 +1278,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 0f8a665ec014cd141bd1248fdcbd8707, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18
+      value: -3.3
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 0f8a665ec014cd141bd1248fdcbd8707, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.9
+      value: -11.4
       objectReference: {fileID: 0}
     - target: {fileID: 2069015975501184385, guid: 0f8a665ec014cd141bd1248fdcbd8707, type: 3}
       propertyPath: m_LocalPosition.z
