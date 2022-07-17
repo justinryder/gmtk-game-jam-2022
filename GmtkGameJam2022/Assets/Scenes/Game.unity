@@ -422,6 +422,37 @@ Transform:
   m_Father: {fileID: 958712079}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1944076998 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3772410152407895075, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
+  m_PrefabInstance: {fileID: 2158567842015004317}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2010955368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2158567843663874572, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
+  m_PrefabInstance: {fileID: 2158567842015004317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2010955375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010955368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1001 &2158567842015004317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -430,16 +461,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099344449, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
+      propertyPath: MessageText
+      value: 
+      objectReference: {fileID: 1944076998}
+    - target: {fileID: 2099344449, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
       propertyPath: EncounterScenes.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2099344449, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
       propertyPath: EncounterScenes.Array.data[0]
-      value: Scenes/Encounters/CatGang/FennySAMPLE
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2099344449, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
       propertyPath: EncounterScenes.Array.data[1]
-      value: Scenes/Encounters/RAVEZOO/CardPlayRAVE
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2158567843975901862, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
       propertyPath: m_Name
@@ -554,6 +589,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.InitMessage
+      value: The Mailman appraches you. They might step on your floofy tail! What
+        do you do?
+      objectReference: {fileID: 0}
     - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
       propertyPath: m_RootOrder
       value: 4

@@ -7,6 +7,7 @@ TagManager:
   - HealthBar
   - TimeBar
   - Encounter
+  - Message
   layers:
   - Default
   - TransparentFX

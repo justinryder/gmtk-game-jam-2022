@@ -572,6 +572,7 @@ GameObject:
   - component: {fileID: 6724636348199439191}
   - component: {fileID: 6724636348199439192}
   - component: {fileID: 6724636348199439193}
+  - component: {fileID: 964223333617338169}
   m_Layer: 5
   m_Name: Canvas Card
   m_TagString: Untagged
@@ -588,8 +589,8 @@ RectTransform:
   m_GameObject: {fileID: 6724636348199439195}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6724636348620991249}
   - {fileID: 6724636348282831136}
@@ -731,6 +732,18 @@ MonoBehaviour:
     Bonus: 0
     Type: 0
     PlayString: 
+--- !u!114 &964223333617338169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724636348199439195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a274c3968b6cf54b865bd9768340058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6724636348282831137
 GameObject:
   m_ObjectHideFlags: 0

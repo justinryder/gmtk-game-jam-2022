@@ -107,42 +107,50 @@ public class Card : MonoBehaviour
 
     public void Play()
     {
-        var healthBarGameObject = GameObject.FindWithTag("HealthBar");
-        var timeBarGameObject = GameObject.FindWithTag("TimeBar");
-        var encounterGameObject = GameObject.FindWithTag("Encounter");
-        if (!healthBarGameObject)
-        {
-            Debug.Log("No HealthBar tagged object in scene.");
-            return;
-        }
-        if (!timeBarGameObject)
-        {
-            Debug.Log("No TimeBar tagged object in scene.");
-            return;
-        }
-        if (!encounterGameObject)
-        {
-            Debug.Log("No Encounter tagged object in scene.");
-            return;
-        }
+        // var healthBarGameObject = GameObject.FindWithTag("HealthBar");
+        // var timeBarGameObject = GameObject.FindWithTag("TimeBar");
+        // var encounterGameObject = GameObject.FindWithTag("Encounter");
+        // var messageGameObject = GameObject.FindWithTag("Message");
+        // if (!healthBarGameObject)
+        // {
+        //     Debug.Log("No HealthBar tagged object in scene.");
+        //     return;
+        // }
+        // if (!timeBarGameObject)
+        // {
+        //     Debug.Log("No TimeBar tagged object in scene.");
+        //     return;
+        // }
+        // if (!encounterGameObject)
+        // {
+        //     Debug.Log("No Encounter tagged object in scene.");
+        //     return;
+        // }
+        // if (!messageGameObject)
+        // {
+        //     Debug.Log("No Message tagged object in scene.");
+        //     return;
+        // }
 
-        var healthBar = healthBarGameObject.GetComponent<HealthBarController>();
-        var timeBar = timeBarGameObject.GetComponent<HealthBarController>();
-        var encounter = encounterGameObject.GetComponent<Encounter>();
+        // var healthBar = healthBarGameObject.GetComponent<HealthBarController>();
+        // var timeBar = timeBarGameObject.GetComponent<HealthBarController>();
+        // var encounter = encounterGameObject.GetComponent<Encounter>();
 
-        var success = rng.Next(0, 2) == 0; // TODO dice roll to determine, accounting for bonus by type
+        // var success = rng.Next(0, 2) == 0; // TODO dice roll to determine, accounting for bonus by type
 
-        var result = encounter.GetResultByCardType(cardData.Type, success);
+        // var result = encounter.GetResultByCardType(cardData.Type, success);
 
-        healthBar.GainHealth(result.HealthDelta);
-        timeBar.GainHealth(result.TimeDelta);
+        // healthBar.GainHealth(result.HealthDelta);
+        // timeBar.GainHealth(result.TimeDelta);
 
-        var resultMessage = string.Format("{0}, {1}",
-            cardData.PlayString.Replace("%E", encounter.encounterData.Name),
-            result.Text
-        );
+        // var resultMessage = string.Format("{0}, {1}",
+        //     cardData.PlayString.Replace("%E", encounter.encounterData.Name),
+        //     result.Text
+        // );
 
-        Debug.Log(string.Format("Result: {0} HealthDelta: {2} TurnDelta: {3}\nResult Message: {1}", success ? "Success" : "Fail", resultMessage, result.HealthDelta, result.TimeDelta));
+
+
+        // Debug.Log(string.Format("Result: {0} HealthDelta: {2} TurnDelta: {3}\nResult Message: {1}", success ? "Success" : "Fail", resultMessage, result.HealthDelta, result.TimeDelta));
     }
 
 

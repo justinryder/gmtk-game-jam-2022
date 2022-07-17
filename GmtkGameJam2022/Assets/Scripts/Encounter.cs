@@ -24,6 +24,7 @@ public class EncounterResult
 public class EncounterData
 {
     public string Name; // The Mailman
+    public string InitMessage; // The Mailman appraches you. They might step on your floofy tail! What do you do?
 
     public EncounterResult AggressiveSuccessResult;
     public EncounterResult AggressiveFailResult;
