@@ -17,7 +17,7 @@ public class GameController : MonoBehaviour
 
     public Button NextEncounterButton;
 
-    public int DrawCount = 3;
+    public int DrawCount = 5;
 
     private static System.Random rng = new System.Random();
 
