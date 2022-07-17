@@ -57,7 +57,7 @@ public class GameController : MonoBehaviour
     {
         if (MessageText)
         {
-            MessageText.text = "Embark on an adventure to find your way back home!\nRoll 4 or higher after bonus to win an encounter.\nClick Next Encounter when you are ready to begin.";
+            MessageText.text = "Your ears perk up to the sound of a can opening, but you are far from home.\nHurry back before your food goes cold!\nRoll 4 or higher after bonus to win an encounter.\nClick Next Encounter when you are ready to begin.";
         }
     }
 
@@ -134,6 +134,24 @@ public class GameController : MonoBehaviour
             if (!string.IsNullOrEmpty(loseScene))
             {
                 SceneManager.LoadScene(loseScene);
+
+                NextEncounterButton.interactable = false;
+                NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+
+                if (MessageText)
+                {
+                    MessageText.text = "You had 9 lives, but now you have none.\nRest up and try again!";
+                }
+
+                if (hand)
+                {
+                    hand.Discard();
+                }
+
+                if (DiceRoller)
+                {
+                    DiceRoller.Hide();
+                }
             }
             return;
         }
@@ -144,6 +162,24 @@ public class GameController : MonoBehaviour
             if (!string.IsNullOrEmpty(loseScene))
             {
                 SceneManager.LoadScene(loseScene);
+                
+                NextEncounterButton.interactable = false;
+                NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+
+                if (MessageText)
+                {
+                    MessageText.text = "You excitedly take a bite only to realize it's gone cold.\nTry to get home faster next time!";
+                }
+
+                if (hand)
+                {
+                    hand.Discard();
+                }
+
+                if (DiceRoller)
+                {
+                    DiceRoller.Hide();
+                }
             }
             return;
         }
@@ -154,6 +190,24 @@ public class GameController : MonoBehaviour
             if (!string.IsNullOrEmpty(winScene))
             {
                 SceneManager.LoadScene(winScene);
+
+                NextEncounterButton.interactable = false;
+                NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+
+                if (MessageText)
+                {
+                    MessageText.text = "WINNER WINNER\nMEOW MIX MEOW MIX DID DELIVER!";
+                }
+
+                if (hand)
+                {
+                    hand.Discard();
+                }
+
+                if (DiceRoller)
+                {
+                    DiceRoller.Hide();
+                }
             }
             return;
         }

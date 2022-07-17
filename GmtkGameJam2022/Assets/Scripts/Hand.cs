@@ -71,7 +71,7 @@ public class Hand : MonoBehaviour
         
         var encounter = encounterGameObject.GetComponent<Encounter>();
 
-        // TODO DICE LOGIC THEN CONTINUE
+        messageText.text = string.Format("{0}...\nRolling to beat a 3 with a {1} modifier...", card.cardData.PlayString.Replace("%E", encounter.encounterData.Name), card.cardData.Bonus.ToSignedString());
 
         DiceRoller.Roll((int value) => {
             var success = value > 3;
@@ -102,6 +102,9 @@ public class Hand : MonoBehaviour
                 result.HealthDelta,
                 result.TimeDelta
             ));
+
+            NextEncounterButton.interactable = true;
+            NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = true;
         });
 
         
@@ -115,9 +118,6 @@ public class Hand : MonoBehaviour
         card.AnimateTo(SelectedTarget.localPosition);
         card.AnimateToScale(Vector3.one * 1.3f);
         card.GetComponent<Button>().enabled = false;
-
-        NextEncounterButton.interactable = true;
-        NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = true;
     }
 
     private Vector3 CalculateCardPosition(int index, int total)
