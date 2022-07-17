@@ -429,6 +429,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2099344449, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
+      propertyPath: EncounterScenes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2099344449, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
+      propertyPath: EncounterScenes.Array.data[0]
+      value: Scenes/Encounters/CatGang/FennySAMPLE
+      objectReference: {fileID: 0}
+    - target: {fileID: 2099344449, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
+      propertyPath: EncounterScenes.Array.data[1]
+      value: Scenes/Encounters/RAVEZOO/CardPlayRAVE
+      objectReference: {fileID: 0}
     - target: {fileID: 2158567843975901862, guid: ffe871e09400aec48a8f933f3c15da8b, type: 3}
       propertyPath: m_Name
       value: Game UI - Screen Space Canvas
