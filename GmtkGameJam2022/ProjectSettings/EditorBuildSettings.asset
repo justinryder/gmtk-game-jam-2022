@@ -15,6 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Credits.unity
     guid: dabbb747f75486b43a94cd06ea9290c5
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/Encounters/BoatPirates/Boat2Play.unity
     guid: d58c5f027e4b32c44907559f4f34e8eb
   - enabled: 1
@@ -35,4 +36,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Encounters/RAVEZOO/TESTFennyRave 1.unity
     guid: 9d9695a169c875f43aefc740f826e8cf
+=======
+    path: Assets/Scenes/Encounters/RAVEZOO/CardPlayRAVE.unity
+    guid: 7dec7a89a6450a943ab64d1c5261579e
+  - enabled: 1
+    path: Assets/Scenes/Encounters/RAVEZOO/RAVEZOO.unity
+    guid: a043c42ef9ff6d240809c6b870b5e928
+  - enabled: 1
+    path: Assets/Scenes/Encounters/BoatPirates/Boat2Play.unity
+    guid: d58c5f027e4b32c44907559f4f34e8eb
+  - enabled: 1
+    path: Assets/Scenes/Encounters/BoatPirates/FennyRaftOcean.unity
+    guid: bb899961b76385441b39e912bae205ab
+>>>>>>> Stashed changes
   m_configObjects: {}
