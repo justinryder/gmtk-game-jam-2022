@@ -74,7 +74,8 @@ public class Hand : MonoBehaviour
         messageText.text = string.Format("{0}...\nRolling to beat a 3 with a {1} modifier...", card.cardData.PlayString.Replace("%E", encounter.encounterData.Name), card.cardData.Bonus.ToSignedString());
 
         DiceRoller.Roll((int value) => {
-            var success = value > 3;
+            value += 1;
+            var success = value + card.cardData.Bonus > 3;
 
             var result = encounter.GetResultByCardType(card.cardData.Type, success);
 
@@ -92,7 +93,7 @@ public class Hand : MonoBehaviour
                 // Rolled 7 (+1)
                 string.Format(
                     "Rolled {0} {1}",
-                    value,
+                    value + card.cardData.Bonus,
                     card.cardData.Bonus > 0 ? string.Format("({0})", card.cardData.Bonus.ToSignedString()) : ""
                 )
             );
