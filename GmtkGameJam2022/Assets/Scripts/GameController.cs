@@ -7,7 +7,7 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
-    private bool debug = true;
+    private bool debug = false;
 
     public List<string> EncounterScenes;
     private int _encounterIndex;

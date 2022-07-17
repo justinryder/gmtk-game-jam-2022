@@ -81,13 +81,20 @@ public class Hand : MonoBehaviour
             healthBar.GainHealth(result.HealthDelta);
             timeBar.GainHealth(result.TimeDelta);
 
-            var resultMessage = string.Format("{0}, {1}\n{2}",
+            var resultMessage = string.Format("{3} {4}\n{0}, {1}\n{2}",
                 card.cardData.PlayString.Replace("%E", encounter.encounterData.Name),
                 result.Text,
                 string.Join(" ", new List<string>() {
                     result.HealthDelta != 0 ? string.Format("{0} Lives", result.HealthDelta.ToSignedString()) : "",
                     result.TimeDelta != 0 ? string.Format("{0} Time", result.TimeDelta.ToSignedString()) : "",
-                }.Where(s => !string.IsNullOrEmpty(s)))
+                }.Where(s => !string.IsNullOrEmpty(s))),
+                success ? "Success!" : "Fail!",
+                // Rolled 7 (+1)
+                string.Format(
+                    "Rolled {0} {1}",
+                    value,
+                    card.cardData.Bonus > 0 ? string.Format("({0})", card.cardData.Bonus.ToSignedString()) : ""
+                )
             );
 
 
