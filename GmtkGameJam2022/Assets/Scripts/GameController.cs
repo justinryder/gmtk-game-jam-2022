@@ -35,7 +35,10 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        StartEncounter();
+        if (MessageText)
+        {
+            MessageText.text = "Embark on an adventure to find your way back home! Click Next Encounter when you are ready to begin.";
+        }
     }
 
     void Update()
@@ -43,7 +46,7 @@ public class GameController : MonoBehaviour
         
     }
 
-    void SetEncounterMessage()
+    public void SetEncounterMessage()
     {
         var encounterGameObject = GameObject.FindWithTag("Encounter");
         
@@ -71,6 +74,12 @@ public class GameController : MonoBehaviour
             hand.Discard();
         }
 
+        NextEncounterButton.interactable = false;
+        NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+    }
+
+    public void StartTurn()
+    {
         if (deck)
         {
             for (var i = 0; i < DrawCount; i++)
@@ -78,9 +87,6 @@ public class GameController : MonoBehaviour
                 deck.Draw();
             }
         }
-
-        NextEncounterButton.interactable = false;
-        NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
     }
 
     public void LoadNextEncounter()

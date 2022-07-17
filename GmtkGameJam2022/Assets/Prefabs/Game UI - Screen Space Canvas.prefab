@@ -539,7 +539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EncounterScenes:
-  - Game
+  - Scenes/Encounters/BoatPirates/FennyRaftOcean
   MessageText: {fileID: 3772410152407895075}
   deck: {fileID: 2158567843663874565}
   hand: {fileID: 2158567843800996967}
