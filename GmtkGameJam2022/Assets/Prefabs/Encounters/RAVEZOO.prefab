@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &16933927175440371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.Name
+      value: RAVE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.InitMessage
+      value: Is that a RAVE? I'm a little scarrrrred. purrrrr
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeFailResult.Text
+      value: the ravers look around confused, but you escape.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FleeSuccessResult.Text
+      value: the ravers looks around confused, but you escape.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralFailResult.Text
+      value: the lights distract you! "awwwww lights, pretty"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.StealthFailResult.Text
+      value: the ravers see you. Judging.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlyFailResult.Text
+      value: the ravers see through your kindness and pull your tail
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.AggressiveFailResult.Text
+      value: the ravers STRIKE back!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralSuccessResult.Text
+      value: the ravers ignores you because they are preoccupied with the lights
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.StealthSuccessResult.Text
+      value: you get away, the ravers none the wiser
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlySuccessResult.Text
+      value: the ravers think you are "soooo cute"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralFailResult.TimeDelta
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.AggressiveSuccessResult.Text
+      value: the ravers don't understand what you are doing...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.NeutralFailResult.HealthDelta
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749698, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: encounterData.FriendlyFailResult.HealthDelta
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749699, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367027074090749700, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
+      propertyPath: m_Name
+      value: RAVEZOO
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe615afcf7220734f86c963e88df93ed, type: 3}
