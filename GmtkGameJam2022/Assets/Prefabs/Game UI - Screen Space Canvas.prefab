@@ -201,7 +201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Turns:'
+  m_text: 'Time:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -963,7 +963,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1546933495418309622, guid: 26b65b1c6c4cc734b879665ad7b6a506, type: 3}
       propertyPath: Label
-      value: 'Turns:'
+      value: 'Time:'
       objectReference: {fileID: 0}
     - target: {fileID: 1546933495418309622, guid: 26b65b1c6c4cc734b879665ad7b6a506, type: 3}
       propertyPath: onImage
