@@ -25,6 +25,8 @@ public class GameController : MonoBehaviour
     public HealthBarController healthBar;
     public HealthBarController timeBar;
 
+    public DiceRoller DiceRoller;
+
     public int DrawCount = 5;
 
     private static System.Random rng = new System.Random();
@@ -100,6 +102,11 @@ public class GameController : MonoBehaviour
 
         NextEncounterButton.interactable = false;
         NextEncounterButton.GetComponentInChildren<TextMeshProUGUI>().enabled = false;
+
+        if (DiceRoller)
+        {
+            DiceRoller.Hide();
+        }
     }
 
     public void StartTurn()

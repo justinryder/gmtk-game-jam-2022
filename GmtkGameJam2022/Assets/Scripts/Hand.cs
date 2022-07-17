@@ -22,6 +22,8 @@ public class Hand : MonoBehaviour
 
     public Button NextEncounterButton;
 
+    public DiceRoller DiceRoller;
+
     private List<Card> _cards;
 
     private static System.Random rng = new System.Random();
@@ -69,27 +71,40 @@ public class Hand : MonoBehaviour
         
         var encounter = encounterGameObject.GetComponent<Encounter>();
 
-        var success = rng.Next(0, 2) == 0; // TODO dice roll to determine, accounting for bonus by type
+        // TODO DICE LOGIC THEN CONTINUE
 
-        var result = encounter.GetResultByCardType(card.cardData.Type, success);
+        DiceRoller.Roll((int value) => {
+            var success = value > 3;
 
-        healthBar.GainHealth(result.HealthDelta);
-        timeBar.GainHealth(result.TimeDelta);
+            var result = encounter.GetResultByCardType(card.cardData.Type, success);
 
-        var resultMessage = string.Format("{0}, {1}\n{2}",
-            card.cardData.PlayString.Replace("%E", encounter.encounterData.Name),
-            result.Text,
-            string.Join(" ", new List<string>() {
-                result.HealthDelta != 0 ? string.Format("{0} Lives", result.HealthDelta.ToSignedString()) : "",
-                result.TimeDelta != 0 ? string.Format("{0} Time", result.TimeDelta.ToSignedString()) : "",
-            }.Where(s => !string.IsNullOrEmpty(s)))
-        );
+            healthBar.GainHealth(result.HealthDelta);
+            timeBar.GainHealth(result.TimeDelta);
+
+            var resultMessage = string.Format("{0}, {1}\n{2}",
+                card.cardData.PlayString.Replace("%E", encounter.encounterData.Name),
+                result.Text,
+                string.Join(" ", new List<string>() {
+                    result.HealthDelta != 0 ? string.Format("{0} Lives", result.HealthDelta.ToSignedString()) : "",
+                    result.TimeDelta != 0 ? string.Format("{0} Time", result.TimeDelta.ToSignedString()) : "",
+                }.Where(s => !string.IsNullOrEmpty(s)))
+            );
 
 
-        messageText.text = resultMessage;
+            messageText.text = resultMessage;
 
 
-        Debug.Log(string.Format("Result: {0} HealthDelta: {2} TurnDelta: {3}\nResult Message: {1}", success ? "Success" : "Fail", resultMessage, result.HealthDelta, result.TimeDelta));
+            Debug.Log(string.Format(
+                "Roll: {0} Result: {1} HealthDelta: {3} TurnDelta: {4}\nResult Message: {2}",
+                value,
+                success ? "Success" : "Fail",
+                resultMessage,
+                result.HealthDelta,
+                result.TimeDelta
+            ));
+        });
+
+        
 
         _cards.Where(c => c != card).ToList().ForEach(c => {
             c.AnimateToThenDestroy(DiscardTarget.localPosition);
