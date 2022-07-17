@@ -12,12 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/FENNY EDIT.unity
     guid: 0aa00f47c20241e40ad31b201b319972
   - enabled: 1
-    path: Assets/Scenes/Encounters/Dragon/CardgameDragon.unity
-    guid: 72e11739bfd4b60459421e6f63202480
-  - enabled: 1
-    path: Assets/Scenes/Encounters/Dragon/Dragon1.unity
-    guid: beae84ff9c4fc544abf5abcb821a4101
-  - enabled: 1
     path: Assets/Scenes/Encounters/RAVEZOO/CardPlayRAVE.unity
     guid: 7dec7a89a6450a943ab64d1c5261579e
   - enabled: 1
@@ -38,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Encounters/BoatPirates/FennyRaftOcean.unity
     guid: bb899961b76385441b39e912bae205ab
+  - enabled: 1
+    path: Assets/Scenes/Encounters/Dragon/Dragon1.unity
+    guid: beae84ff9c4fc544abf5abcb821a4101
+  - enabled: 1
+    path: Assets/Scenes/Encounters/Dragon/CardgameDragon.unity
+    guid: 72e11739bfd4b60459421e6f63202480
   - enabled: 1
     path: Assets/Scenes/Encounters/Dragon/DragonTEST.unity
     guid: db0835776e36d1e42a1fd4ac00975fda
