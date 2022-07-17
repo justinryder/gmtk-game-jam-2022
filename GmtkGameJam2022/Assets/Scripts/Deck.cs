@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using TMPro;
 
@@ -11,7 +12,7 @@ public class Deck : MonoBehaviour
 
     public List<Card> AllCards;
 
-    public int DeckSize = 15;
+    public int DeckSize { get { return AllCards.Count; } }
 
     private Stack<Card> _deck;
 
@@ -40,14 +41,11 @@ public class Deck : MonoBehaviour
         var cards = new List<Card>();
         for (var i = 0; i < DeckSize; i++)
         {
-            var allCardIndex = i % AllCards.Count;
-            if (allCardIndex == 0)
-            {
-                AllCards.Shuffle();
-            }
-            cards.Add(AllCards[allCardIndex]);
+            cards.Add(AllCards[i]);
         }
         _deck = new Stack<Card>(cards.Shuffle());
+
+        Debug.Log("New Deck: " + string.Join(", ", cards.Select(card => card.cardData.Action)) + "\nFrom AllCards: " + string.Join(", ", AllCards.Select(card => card.cardData.Action)));
     }
 
     // Start is called before the first frame update
