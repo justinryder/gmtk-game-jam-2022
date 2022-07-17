@@ -7,13 +7,12 @@ public class StartTurnOnLoad : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var gameControllerObject = GameObject.FindWithTag("GameController");
-        if (!gameControllerObject)
+        var gameController = GameController.GetGameController();
+        if (!gameController)
         {
             Debug.Log("Can't start turn, no GameController tag found");
         }
 
-        var gameController = gameControllerObject.GetComponent<GameController>();
         gameController.StartTurn();
     }
 
