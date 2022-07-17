@@ -18,8 +18,14 @@ public class ParallaxBackground_0 : MonoBehaviour
     void Start()
     {
         _camera = Camera.main.transform;
-        sizeX = Layer_Objects[0].transform.localScale.x;
-        boundSizeX = Layer_Objects[0].GetComponent<SpriteRenderer>().sprite.bounds.size.x;
+        if (Layer_Objects.Length>0)
+        {
+
+            sizeX = Layer_Objects[0].transform.localScale.x;
+            boundSizeX = Layer_Objects[0].GetComponent<SpriteRenderer>().sprite.bounds.size.x;
+            
+        }
+        
         for (int i=0;i<5;i++){
             startPos[i] = _camera.position.x;
         }
