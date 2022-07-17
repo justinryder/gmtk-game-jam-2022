@@ -8,6 +8,9 @@ using TMPro;
 public class GameController : MonoBehaviour
 {
     public List<string> EncounterScenes;
+    private int _encounterIndex;
+
+    public string winScene;
 
     public TextMeshProUGUI MessageText;
 
@@ -97,8 +100,18 @@ public class GameController : MonoBehaviour
             return;
         }
 
-        int index = rng.Next(EncounterScenes.Count);
-        var scene = EncounterScenes[index];
+        if (_encounterIndex >= EncounterScenes.Count)
+        {
+            Debug.Log("Win!");
+            if (!string.IsNullOrEmpty(winScene))
+            {
+                SceneManager.LoadScene(winScene);
+            }
+            return;
+        }
+
+        var scene = EncounterScenes[_encounterIndex];
+        _encounterIndex++;
 
         SceneManager.LoadScene(scene);
 
