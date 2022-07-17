@@ -68,7 +68,14 @@ public class Encounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        var gameControllerObject = GameObject.FindWithTag("GameController");
+        if (!gameControllerObject)
+        {
+            Debug.Log("Can't set message, no GameController tag found");
+        }
+
+        var gameController = gameControllerObject.GetComponent<GameController>();
+        gameController.SetEncounterMessage();
     }
 
     // Update is called once per frame

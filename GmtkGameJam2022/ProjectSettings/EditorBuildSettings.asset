@@ -4,5 +4,56 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 5172e05c91c9de2498e3e79665db099c
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: dabbb747f75486b43a94cd06ea9290c5
+  - enabled: 1
+    path: Assets/Scenes/FENNY EDIT.unity
+    guid: 0aa00f47c20241e40ad31b201b319972
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: e8eb711ee6d051f428e9364c8391f076
+  - enabled: 1
+    path: Assets/Scenes/JustinPoC.unity
+    guid: 608f36d0df1617041819108187d4c125
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Encounters/BoatPirates/Boat2Play.unity
+    guid: d58c5f027e4b32c44907559f4f34e8eb
+  - enabled: 1
+    path: Assets/Scenes/Encounters/BoatPirates/FennyRaftOcean.unity
+    guid: bb899961b76385441b39e912bae205ab
+  - enabled: 1
+    path: Assets/Scenes/Encounters/CatGang/FennySAMPLE.unity
+    guid: 64b2c8936ccfa754794813e2638e1c56
+  - enabled: 1
+    path: Assets/Scenes/Encounters/Dragon/CardgameDragon.unity
+    guid: 72e11739bfd4b60459421e6f63202480
+  - enabled: 1
+    path: Assets/Scenes/Encounters/Dragon/Dragon1.unity
+    guid: beae84ff9c4fc544abf5abcb821a4101
+  - enabled: 1
+    path: Assets/Scenes/Encounters/Dragon/DragonTEST.unity
+    guid: db0835776e36d1e42a1fd4ac00975fda
+  - enabled: 1
+    path: Assets/Scenes/Encounters/RAVEZOO/CardPlayRAVE.unity
+    guid: 7dec7a89a6450a943ab64d1c5261579e
+  - enabled: 1
+    path: Assets/Scenes/Encounters/RAVEZOO/FENNYRAVE.unity
+    guid: ec5f2d59974621744bdb77a7218548a8
+  - enabled: 1
+    path: Assets/Scenes/Encounters/RAVEZOO/FINALRAVEZOO.unity
+    guid: 0556e56f2d2c64a408c5410fc5d473f6
+  - enabled: 1
+    path: Assets/Scenes/Encounters/RAVEZOO/RAVEZOO.unity
+    guid: a043c42ef9ff6d240809c6b870b5e928
+  - enabled: 1
+    path: Assets/Scenes/Encounters/RAVEZOO/TESTFennyRave 1.unity
+    guid: 9d9695a169c875f43aefc740f826e8cf
   m_configObjects: {}
