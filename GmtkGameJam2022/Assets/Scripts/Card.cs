@@ -21,7 +21,7 @@ public class CardData
     public Sprite WhiskerImage;
     public string Action;
     public string Description;
-    public int Bonus;
+    public int Bonus; // +/- to roll
     public CardType Type = CardType.Neutral;
     public string PlayString; // You attempt to ...
 }
@@ -55,6 +55,8 @@ public class Card : MonoBehaviour
     public SpriteRenderer Image;
     public GameObject CanvasImage;
     public SpriteRenderer WhiskerImage;
+    public TextMeshProUGUI TimeBonusText;
+    public TextMeshProUGUI LifeBonusText;
 
     public int ActionLineLength = 20;
     public int DescriptionLineLength = 40;
